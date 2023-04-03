@@ -1,3 +1,45 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://kjg-dossenheim.org'
+languageCode = 'de-DE'
+defaultContentLanguage = 'de'
+title = 'KjG Dossenheim'
+copyright = 'KjG Dossenheim'
+theme = 'kjg-hugo-theme'
+enableRobotsTXT = true
+pluralizelisttitles = false
+
+[menu]
+[[menu.main]]
+  name = 'Startseite'
+  url = '/'
+  weight = 10
+[[menu.main]]
+  name = 'Über uns'
+  url = '/about'
+  weight = 20
+[[menu.main]]
+  name = 'Kontakt'
+  url = '/kontakt'
+  weight = 30
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = false
+    disable = false
+    respectDoNotTrack = false
+    useSessionStorage = false
+  [privacy.instagram]
+    disable = false
+    simple = false
+  [privacy.twitter]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.vimeo]
+    disable = false
+    enableDNT = false
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = false
