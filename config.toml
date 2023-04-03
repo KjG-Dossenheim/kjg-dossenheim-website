@@ -3,7 +3,6 @@ languageCode = 'de-DE'
 defaultContentLanguage = 'de'
 title = 'KjG Dossenheim'
 copyright = 'KjG Dossenheim'
-theme = 'kjg-hugo-theme'
 enableRobotsTXT = true
 pluralizelisttitles = false
 
