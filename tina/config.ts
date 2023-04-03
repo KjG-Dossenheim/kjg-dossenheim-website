@@ -52,7 +52,13 @@ export default defineStaticConfig({
           },
         ],
       },
-      
+      {
+        name: "datenschutz",
+        label: "datenschutz",
+        path: "content/datenschutz",
+        format: 'json',
+        fields,
+      },
     ],
   },
 });
