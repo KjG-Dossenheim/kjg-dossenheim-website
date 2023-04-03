@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",
-    "build": "tinacms build && hugo",
+    "build": "tinacms build && build-tw && hugo",
+    "build-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
