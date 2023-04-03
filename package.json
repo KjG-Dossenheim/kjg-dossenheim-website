@@ -22,9 +22,12 @@
   "homepage": "https://github.com/tinalabs/vanilla-hugo#readme",
   "dependencies": {
     "@tinacms/cli": "^1.5.2",
-    "tinacms": "^1.4.3"
+    "tinacms": "^1.4.3",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
   },
   "devDependencies": {
-    "tailwindcss": "^3.3.1"
+    "tailwindcss": "^3.3.1",
+    "@tailwindcss/container-queries": "^0.1.0",
   }
 }
