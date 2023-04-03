@@ -1,19 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["content/**/*.md", "layouts/**/*.html"],
-  darkMode: 'class', // or 'media' or 'class'
   theme: {
-    extend: {},
-    colors: {
-      primary: "#00b6be",
-      secondary: "#006d84",
-      accent: "#f58220",
-      neutral: "#3D4451",
-      info: "#007576",
-      success: "#a6ce39",
-      warning: "#fcaf17",
-      error: "#952d4f",
-    }
+    extend: {
+      colors: {
+        primary: "#00b6be",
+        secondary: "#006d84",
+        accent: "#f58220",
+        neutral: "#3D4451",
+        info: "#007576",
+        success: "#a6ce39",
+        warning: "#fcaf17",
+        error: "#952d4f",
+      }
+    },
   },
   plugins: [
     require('@tailwindcss/forms'),
