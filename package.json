@@ -22,5 +22,8 @@
   "dependencies": {
     "@tinacms/cli": "^1.5.2",
     "tinacms": "^1.4.3"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
   }
 }
