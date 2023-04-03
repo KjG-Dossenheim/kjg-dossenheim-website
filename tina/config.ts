@@ -23,9 +23,9 @@ export default defineStaticConfig({
   schema: {
     collections: [
       {
-        name: "post",
-        label: "Posts",
-        path: "content/posts",
+        name: "sommerfreizeit",
+        label: "Sommerfreizeit",
+        path: "content/sommerfreizeit",
         fields: [
           {
             type: "string",
