@@ -7,7 +7,7 @@ Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Date
 
 Wir weisen darauf hin, dass die DatenÃ¼bertragung im Internet (z.B. bei der Kommunikation per E-Mail) SicherheitslÃ¼cken aufweisen kann. Ein lÃ¼ckenloser Schutz der Daten vor dem Zugriff durch Dritte ist nicht mÃ¶glich.
 
-Der Nutzung von im Rahmen der Impressumspflicht verÃ¶ffentlichten Kontaktdaten durch Dritte zur Ãbersendung von nicht ausdrÃ¼cklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrÃ¼cklich widersprochen. Die Betreiber der Seiten behalten sich ausdrÃ¼cklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
+Der Nutzung von im Rahmen der Impressumspflicht veröffentlichten Kontaktdaten durch Dritte zur Ãbersendung von nicht ausdrÃ¼cklich angeforderter Werbung und Informationsmaterialien wird hiermit ausdrÃ¼cklich widersprochen. Die Betreiber der Seiten behalten sich ausdrücklich rechtliche Schritte im Falle der unverlangten Zusendung von Werbeinformationen, etwa durch Spam-Mails, vor.
 
 ## Sommerfreizeit
 
