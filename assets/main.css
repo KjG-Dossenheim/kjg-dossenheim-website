@@ -27,27 +27,27 @@
 
 @layer base {
     h1 {
-        @apply text-5xl text-primary-500 font-extrabold dark:text-white py-2;
+        @apply py-2 text-5xl font-extrabold text-primary-500 dark:text-white;
     }
 
     h2 {
-        @apply text-4xl text-primary-500 font-extrabold dark:text-white py-2;
+        @apply py-2 text-4xl font-extrabold text-primary-500 dark:text-white;
     }
 
     h3 {
-        @apply text-3xl text-primary-500 font-extrabold dark:text-white py-2;
+        @apply py-2 text-3xl font-extrabold text-primary-500 dark:text-white;
     }
 
     h4 {
-        @apply text-2xl text-primary-500 font-extrabold dark:text-white py-2;
+        @apply py-2 text-2xl font-extrabold text-primary-500 dark:text-white;
     }
 
     h5 {
-        @apply text-xl text-primary-500 font-extrabold dark:text-white py-2;
+        @apply py-2 text-xl font-extrabold text-primary-500 dark:text-white;
     }
 
     h6 {
-        @apply text-lg text-primary-500 font-extrabold dark:text-white py-2;
+        @apply py-2 text-lg font-extrabold text-primary-500 dark:text-white;
     }
 
     li {
@@ -56,5 +56,13 @@
 
     a {
         @apply font-medium text-accent hover:underline;
+    }
+
+    footer a {
+        @apply text-white;
+    }
+
+    nav a {
+        @apply text-white;
     }
 }
