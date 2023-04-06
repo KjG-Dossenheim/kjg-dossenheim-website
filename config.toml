@@ -12,13 +12,18 @@ pluralizelisttitles = false
   url = '/'
   weight = 10
 [[menu.main]]
+  name = 'Aktionen'
+  url = '/aktionen'
+  weight = 20
+[[menu.main]]
   name = 'Über uns'
   url = '/about'
-  weight = 20
+  weight = 25
 [[menu.main]]
   name = 'Kontakt'
   url = '/kontakt'
   weight = 30
+
 
 [privacy]
   [privacy.disqus]
