@@ -27,27 +27,27 @@
 
 @layer base {
     h1 {
-        @apply text-5xl text-primary font-extrabold dark:text-white py-2;
+        @apply text-5xl text-primary-500 font-extrabold dark:text-white py-2;
     }
 
     h2 {
-        @apply text-4xl text-primary font-extrabold dark:text-white py-2;
+        @apply text-4xl text-primary-500 font-extrabold dark:text-white py-2;
     }
 
     h3 {
-        @apply text-3xl text-primary font-extrabold dark:text-white py-2;
+        @apply text-3xl text-primary-500 font-extrabold dark:text-white py-2;
     }
 
     h4 {
-        @apply text-2xl text-primary font-extrabold dark:text-white py-2;
+        @apply text-2xl text-primary-500 font-extrabold dark:text-white py-2;
     }
 
     h5 {
-        @apply text-xl text-primary font-extrabold dark:text-white py-2;
+        @apply text-xl text-primary-500 font-extrabold dark:text-white py-2;
     }
 
     h6 {
-        @apply text-lg text-primary font-extrabold dark:text-white py-2;
+        @apply text-lg text-primary-500 font-extrabold dark:text-white py-2;
     }
 
     li {
