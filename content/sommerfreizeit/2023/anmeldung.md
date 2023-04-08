@@ -66,6 +66,6 @@ info@kjg-dossenheim.org
 {{< / faq >}}
 
 {{< faq title="Anmeldung">}}
-Dieses Jahr findet die Anmeldung online statt: 
-[Jetzt anmelden!](https://sesad.de/gruppierungen-2/sommerfreizeit/) 
+###### Dieses Jahr findet die Anmeldung online statt: 
+###### [Jetzt anmelden!](https://sesad.de/gruppierungen-2/sommerfreizeit/) 
 {{< / faq >}}
