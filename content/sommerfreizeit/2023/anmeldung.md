@@ -51,7 +51,7 @@ Montag, 10. Juli 2023
 {{< / faq >}}
 
 {{< faq title="Anmeldung">}}
-Dieses Jahr findet die Anmeldung online statt: [Jetzt Anmelden!](https://pretix.kjg-dossenheim.org/kjg-dossenheim/freizeit-2023/) 
+Dieses Jahr findet die Anmeldung online statt: [Jetzt Anmelden!](https://sesad.de/gruppierungen-2/sommerfreizeit/) 
 {{< / faq >}}
 
 {{< faq title="Weiter Informationen">}}
