@@ -19,10 +19,10 @@ pluralizelisttitles = false
   name = 'Über uns'
   url = '/about'
   weight = 25
-[[menu.main]]
-  name = 'Kontakt'
-  url = '/kontakt'
-  weight = 30
+# [[menu.main]]
+#  name = 'Kontakt'
+#  url = '/kontakt'
+#  weight = 30
 
 
 [privacy]
