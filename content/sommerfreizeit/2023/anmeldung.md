@@ -54,9 +54,7 @@ Genauere Infos erhalten Sie vor der Freizeit.
 Montag, 10. Juli 2023
 {{< / faq >}}
 
-{{< faq title="Anmeldung">}}
-Dieses Jahr findet die Anmeldung online statt: [Jetzt anmelden!](https://sesad.de/gruppierungen-2/sommerfreizeit/) 
-{{< / faq >}}
+
 
 {{< faq title="Weitere Informationen">}}
 Sie haben noch Fragen? Dann wenden Sie sich gerne an uns!
@@ -65,4 +63,9 @@ ben.wallner@kjg-dossenheim.org
 oder  
 info@kjg-dossenheim.org
 
+{{< / faq >}}
+
+{{< faq title="Anmeldung">}}
+Dieses Jahr findet die Anmeldung online statt: 
+[Jetzt anmelden!](https://sesad.de/gruppierungen-2/sommerfreizeit/) 
 {{< / faq >}}
