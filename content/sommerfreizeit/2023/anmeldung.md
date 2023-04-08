@@ -7,7 +7,7 @@ type: static
 ---
 
 {{< faq title="Zeitraum" >}}
-Freitag 2. September 2023 bis Freitag 8. September 2023.
+Samstag 2. September 2023 bis Freitag 8. September 2023.
 {{< / faq >}}
 
 {{< faq title="Motto" >}}
