@@ -20,13 +20,14 @@ Alle Kinder ab der 3. Klasse und Jugendliche bis 14 Jahre.
 
 {{< faq title="Kosten">}}
 **200€ (Solidarpreis 180-220€)**  
-Der oben genannte Preis entspricht dem kalkulierten Teilnahmepreis für diese Freizeit.
+200€ entspricht dem kalkulierten Teilnahmepreis für diese Freizeit.
 Um für Familien oder finanziell Schwächere flexibler zu sein, bieten wir eine Preisspanne an.
-Wer nicht mehr bezahlen kann oder mehrere Kinder hat, kann den Mindestbetrag (180€) bezahlen.
-Wer dagegen mehr bezahlen kann als den kalkulierten Teilnahmepreis (220€), kann dies gerne tun und hilft somit die Finanzen wieder auszugleichen.
+Wer nicht mehr bezahlen kann oder mehrere Kinder anmeldet, kann den Mindestbetrag (180€) bezahlen.
+Wer dagegen mehr bezahlen kann als den kalkulierten Teilnahmepreis (200€), kann dies gerne tun und hilft somit die Finanzen wieder auszugleichen.
 Beträge dazwischen sind ebenfalls möglich.  
 ###### Zuschuss:  
-Sind auch 180€ zu viel? Wir können Sie gerne unterstützen.
+Sind auch 180€ zu viel?  
+Wir unterstützen Sie gerne individuell. Sprechen Sie uns einfach an.
 {{< / faq >}}
 
 {{< faq title="Leitungsteam">}}
@@ -54,7 +55,7 @@ Montag, 10. Juli 2023
 {{< / faq >}}
 
 {{< faq title="Anmeldung">}}
-Dieses Jahr findet die Anmeldung online statt: [Jetzt Anmelden!](https://sesad.de/gruppierungen-2/sommerfreizeit/) 
+Dieses Jahr findet die Anmeldung online statt: [Jetzt anmelden!](https://sesad.de/gruppierungen-2/sommerfreizeit/) 
 {{< / faq >}}
 
 {{< faq title="Weitere Informationen">}}
