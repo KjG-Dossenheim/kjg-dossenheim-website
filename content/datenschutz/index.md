@@ -23,6 +23,6 @@ Darüber hinaus werden die Daten nicht an Dritte weiter gegeben, es sei denn es 
 Sie sind gemäß §17 KDG jederzeit berechtigt, gegenüber der Kirchengemeinde Schriesheim-Dossenheim-Altenbach um umfangreiche Auskunftserteilung zu den zu Ihrer Person oder ihrem Kind gespeicherten Daten zu ersuchen.  
 Gemäß §18, §19 und §20 KDG haben Sie jederzeit das Recht, die Berechtigung, Löschung und Sperrung einzelner personenbezogener Daten zu verlangen.  
 Sie können darüber hinaus jederzeit ohne Angabe von Gründen von Ihrem Widerspruchsrecht gemäß §23 KDG gebrauch machen und die erteilte Einwilligungserklärung mit Wirkung für die Zukunft abändern oder gänzlich widerrufen.  
-Hierfür genügt eine formlose E-Mail an info@kjg-dosseneheim.org.  
+Hierfür genügt eine formlose E-Mail an pfarrei@ksesad.de.  
 Sie können den Widerruf auch per Post oder Fax an eines unserer Pfarrbüros senden.  
 Es entstehen Ihnen dabei keine anderen Kosten als die Portokosten bzw. die Übermittlungskosten nach den bestehenden Basistarifen.
