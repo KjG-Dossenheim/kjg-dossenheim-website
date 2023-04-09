@@ -63,7 +63,7 @@ https://www.schlossebersberg.de
 {{< / faq >}}
 
 {{< faq title="An- und Abreise">}}
-Die An- und Abreise findet diese Jahr per Bus statt.  
+Die An- und Abreise findet dieses Jahr per Bus statt.  
 Genauere Infos erhalten Sie vor der Freizeit.
 {{< / faq >}}
 
