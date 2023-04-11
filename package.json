@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "tinacms dev -c \"hugo server -D\"",
-    "dev-hugo": "hugo server -D",
+    "dev-hugo": "hugo server -D --disableFastRender  ",
     "build": "tinacms build && webpack && npm run build-tw && hugo",
     "dev-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/style.css --watch",
     "build-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/style.css ",
