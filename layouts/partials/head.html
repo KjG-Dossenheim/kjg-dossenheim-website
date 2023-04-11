@@ -7,6 +7,7 @@
     It will not work if you mention the exact location like "./assets/style.css".-->
     {{ $style := resources.Get "style.css" }}    
     <link rel="stylesheet" href="{{ $style.Permalink }}">
-    <script src="/assets/bundle.js"></script>
+    {{ $js := resources.Get "bundle.js" }}    
+    <script src="{{ $js.Permalink }}"></script>
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
 </head>
