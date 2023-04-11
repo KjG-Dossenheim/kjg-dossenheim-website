@@ -7,7 +7,7 @@ type: plain
     <div class="max-w-screen-md px-4 py-8 mx-auto lg:py-16">
         <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-center text-gray-900 dark:text-white">Kontakt
         </h2>
-        <form method="POST" action="{{ .Site.BaseURL }}/send-email.php" class="space-y-8">
+        <form netlify class="space-y-8">
             <div>
                 <label for="email"
                     class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">E-Mail</label>
