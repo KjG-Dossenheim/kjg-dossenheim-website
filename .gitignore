@@ -7,3 +7,4 @@ package-lock.json
 **/._.DS_Store 
 assets/style.css
 static/assets/bundle.js
+assets/bundle.js
