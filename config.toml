@@ -6,6 +6,9 @@ copyright = 'KjG Dossenheim'
 enableRobotsTXT = true
 pluralizelisttitles = false
 
+[params]
+  Description = "Die KjG Dossenheim vertritt die Interessen der Kinder und Jugendlichen in der katholischen Gemeinden der Stadt Dossenheim"
+
 [menu]
 [[menu.main]]
   name = 'Startseite'
