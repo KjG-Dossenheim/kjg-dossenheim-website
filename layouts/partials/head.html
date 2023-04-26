@@ -2,7 +2,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="{{ .Summary }}">
-    <title>{{ .Title }}</title>
+    <title>
+        {{- if .IsHome -}}
+        Home | {{ .Site.Title }}
+        {{- else if .Params.hide_site_title -}}
+        {{ .Page.Title }}
+        {{- else if .Page.Title -}}
+        {{ .Page.Title }} | {{ .Site.Title }}
+        {{- else -}}
+        {{ .Site.Title }}
+        {{- end -}}
+    </title>
     <!-- resources.Get "style.css" will fetch the style.css file. 
     It will not work if you mention the exact location like "./assets/style.css".-->
     {{ $styles := resources.Get "css/main.css" }}
