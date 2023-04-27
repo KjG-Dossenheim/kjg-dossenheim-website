@@ -7,7 +7,14 @@ type: plain
     <div class="max-w-screen-md px-4 py-8 mx-auto lg:py-16">
         <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-center text-gray-900 dark:text-white">Kontakt
         </h2>
-        <form netlify class="space-y-8">
+        <form name="kontakt" method="POST" data-netlify="true" class="space-y-8">
+            <div>
+                <p class="hidden">
+                    <label>
+                        Don’t fill this out if you’re human: <input name="bot-field" />
+                    </label>
+                </p>
+            </div>
             <div>
                 <label for="email"
                     class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">E-Mail</label>
