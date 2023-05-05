@@ -21,5 +21,9 @@
     {{ $built := resources.Get "js/app.js" | js.Build "js/bundle.js"}}
     <script src="{{ $built.Permalink }}"></script>
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+    {{- if isset .Params "canonical" -}}
+    <link rel="canonical" href="{{ .Params.canonical }}" />
+    {{- else -}}
     <link rel="canonical" href="{{ .Permalink }}" />
+    {{- end }}
 </head>
