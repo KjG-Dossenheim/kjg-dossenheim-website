@@ -42,4 +42,8 @@
     nav a {
         @apply text-white;
     }
+
+    /* p {
+        @apply whitespace-break-spaces;
+    } */
 }
