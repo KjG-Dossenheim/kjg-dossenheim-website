@@ -37,8 +37,7 @@ Alle Kinder ab der 3. Klasse und Jugendliche bis 14 Jahre.
 
 {{< faq title="Kosten">}}
 **200€ (Solidarpreis 180-220€)**  
-200€ entspricht dem kalkulierten Teilnahmepreis für diese Freizeit.
-Um für Familien oder finanziell Schwächere flexibler zu sein, bieten wir eine Preisspanne an.
+200€ entspricht dem kalkulierten Teilnahmepreis für diese Freizeit. Um für Familien oder finanziell Schwächere flexibler zu sein, bieten wir eine Preisspanne an.
 Wer nicht mehr bezahlen kann oder mehrere Kinder anmeldet, kann den Mindestbetrag (180€) bezahlen.
 Wer dagegen mehr bezahlen kann als den kalkulierten Teilnahmepreis (200€), kann dies gerne tun und hilft somit die Finanzen wieder auszugleichen.
 Beträge dazwischen sind ebenfalls möglich.  
