@@ -15,5 +15,5 @@ https://kjg-dossenheim.org/sommerfreizeit/packliste/
 
 {{< faq title="Rückfahrt" >}}
 69221 Dossenheim, Parkplatz neben der Schauenburghalle, Gerhart-Hauptmann-Str
-Samstag, 02.09.2023 gegen 16:00 Uhr
+Freitag, 08.09.2023 gegen 15:00 Uhr
 {{< / faq >}}
