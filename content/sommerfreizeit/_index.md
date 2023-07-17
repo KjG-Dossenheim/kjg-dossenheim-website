@@ -23,7 +23,7 @@ Insgesamt ist die Sommerfreizeit der KjG Dossenheim ein unvergessliches Abenteue
             <a class="inline-block px-7 py-3 bg-primary-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out mb-2 md:mr-2"
                 href="/sommerfreizeit/anmeldung" role="button" data-mdb-ripple="true"
                 data-mdb-ripple-color="light">
-                <h4 class="text-white">Mehr Info und Anmeldung</h4>
+                <h4 class="text-white">Weitere Informationen und Anmeldung</h4>
             </a>
         </h2>
     </div>
