@@ -10,7 +10,7 @@ Samstag, 02.09.2023 von 13:45 Uhr (Abfahrt: 14:00 Uhr)
 {{< / faq >}}
 
 {{< faq title="Packliste" >}}
-https://kjg-dossenheim.org/sommerfreizeit/packliste/
+[Klick mich!](https://kjg-dossenheim.org/sommerfreizeit/packliste/)
 {{< / faq >}}
 
 {{< faq title="Rückfahrt" >}}
