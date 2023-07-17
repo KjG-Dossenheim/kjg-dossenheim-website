@@ -11,12 +11,17 @@ type: static
     <div class="px-6 py-6 md:px-12">
         <h2 class="text-5xl my-12 font-bold tracking-tight">
             <a class="inline-block px-7 py-3 bg-primary-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out mb-2 md:mr-2"
-                href="https://sesad.de/gruppierungen-2/sommerfreizeit/" role="button" data-mdb-ripple="true"
+                href="https://budibase.kjg-dossenheim.org/app/sommerfreizeit-2023" role="button" data-mdb-ripple="true"
                 data-mdb-ripple-color="light">
-                <h4 class="text-white"> Hier klicken zur Anmeldung</h4>
+                <h4 class="text-white">Freizeitpass</h4>
+            </a>
+            <a class="inline-block px-7 py-3 bg-primary-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out mb-2 md:mr-2"
+                href="https://pretix.kjg-dossenheim.org/kjg-dossenheim/freizeit-2023/" role="button" data-mdb-ripple="true"
+                data-mdb-ripple-color="light">
+                <h4 class="text-white">Buchung</h4>
             </a>
             <span class="text-blue-600">
-                <h6>Anmeldeschluss: Montag, 10. Juli 2023</h6>
+                <h6>Anmeldeschluss: Montag, 14. August 2023</h6>
             </span>
         </h2>
     </div>
