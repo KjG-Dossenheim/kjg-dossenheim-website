@@ -19,22 +19,4 @@ Als Grundlage der Datenverarbeitung bei Empfängern mit Sitz in Drittstaaten (au
    
 Netlify hält einen Vertrag über die Auftragsverarbeitung gemäß Art. 28 DSGVO bereit, der als datenschutzrechtliche Grundlage für unsere Kundenbeziehung zu Netlify fungiert. Dieser verweist inhaltlich auf die EU-Standardvertragsklauseln. Sie finden ihn hier: [https://www.netlify.com/pdf/netlify-dpa.pdf](https://www.netlify.com/pdf/netlify-dpa.pdf)  
    
-Mehr über die Daten, die durch die Verwendung von Netlify verarbeitet werden, erfahren Sie in der Privacy Policy auf [https://www.netlify.com/privacy/](https://www.netlify.com/privacy/?tid=331680956394).  
-
-## Sommerfreizeit
-
-Die auf dem Anmeldeflyer erhobenen Daten und die im Freizeitpass erhobenen Daten dienen der Durchführung der Sommerfreizeit und sind hierfür notwendig und erforderlich.  
-Sie werden auf Grundlage gesetzlicher Berechtigung erhoben. Nach dem Ende der Freizeit werden einzelne Datensätze noch für die Organisation des Nachtreffens (Kontaktdaten) bzw. für die Verteilung des Freizeitfilms benötigt (Kontaktdaten, Einverständniserklärungen zum Freizeitfilm).  
-Im Anschluss werden diese Daten binnen einer Woche gelöscht.  
-Alle übrigen Daten werden binnen einer Woche nach Ende der Freizeit gelöscht.  
-Während der Freizeit haben die Mitglieder des Leitungs- und des Küchenteams Einsicht in die Daten.  
-Zur Beantragung von Zuschüssen beim Landesjugendplan und kirchlichen Jugendplan müssen wir Name, Vorname, Geburtsdatum, Wohnort, Straße und Teilnahmedauer der TeilnehmerInnen an den Landesjugendring Baden-Württemberg und an die Servicestelle Zuschüsse im Erzbischöflichen Seelsorgeamt Freiburg schicken. Dies wird von einem ehrenamtlichen Mitarbeiter der katholischen Kirchengemeinde beantragt.  
-Darüber hinaus werden die Daten nicht an Dritte weiter gegeben, es sei denn es ist im Notfall für das Wohl des Kindes erforderlich (z.B. Arztbesuch). 
-
-#### Rechte auf Auskunft, Berechtigung, Löschung und Sperrung, Widerspruchsrecht
-Sie sind gemäß §17 KDG jederzeit berechtigt, gegenüber der Kirchengemeinde Schriesheim-Dossenheim-Altenbach um umfangreiche Auskunftserteilung zu den zu Ihrer Person oder ihrem Kind gespeicherten Daten zu ersuchen.  
-Gemäß §18, §19 und §20 KDG haben Sie jederzeit das Recht, die Berechtigung, Löschung und Sperrung einzelner personenbezogener Daten zu verlangen.  
-Sie können darüber hinaus jederzeit ohne Angabe von Gründen von Ihrem Widerspruchsrecht gemäß §23 KDG gebrauch machen und die erteilte Einwilligungserklärung mit Wirkung für die Zukunft abändern oder gänzlich widerrufen.  
-Hierfür genügt eine formlose E-Mail an pfarrei@sesad.de.  
-Sie können den Widerruf auch per Post oder Fax an eines unserer Pfarrbüros senden.  
-Es entstehen Ihnen dabei keine anderen Kosten als die Portokosten bzw. die Übermittlungskosten nach den bestehenden Basistarifen.
+Mehr über die Daten, die durch die Verwendung von Netlify verarbeitet werden, erfahren Sie in der Privacy Policy auf [https://www.netlify.com/privacy/](https://www.netlify.com/privacy/?tid=331680956394).
