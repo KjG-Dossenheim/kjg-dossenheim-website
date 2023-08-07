@@ -4,7 +4,7 @@ summary: Die Packliste für unsere Sommerfreizeit
 type: static
 ---
 ##### Zur Freizeit mitgenommen werden sollten:
-* ausreichend Kleidung/Wechselwäsche für sieben Tage
+* ausreichend Kleidung/Wechselwäsche
 * Wasch- und Duschzeug
 * Handtücher
 * Jacke
