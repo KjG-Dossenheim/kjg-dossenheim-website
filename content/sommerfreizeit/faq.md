@@ -5,9 +5,14 @@ type: static
 ---
 
 {{< faq title="Abfahrt" >}}
-Ort: Parkplatz neben der Schauenburghalle, Gerhart-Hauptmann-Straße, 69221 Dossenheim
-Datum: Samstag, 02.09.2023
-Uhrzeit: 13:45 Uhr (Abfahrt um 14:00 Uhr)
+###### Ort:
+Parkplatz neben der Schauenburghalle,  
+Gerhart-Hauptmann-Straße,  
+69221 Dossenheim  
+###### Datum:
+Samstag, 02.09.2023
+###### Uhrzeit:
+13:45 Uhr (Abfahrt um 14:00 Uhr)
 {{< / faq >}}
 
 {{< faq title="Packliste" >}}
@@ -24,7 +29,12 @@ Per E-Mail unter:
 {{< / faq >}}
 
 {{< faq title="Rückfahrt" >}}
-Ort: Parkplatz neben der Schauenburghalle, Gerhart-Hauptmann-Straße, 69221 Dossenheim
-Datum: Freitag, 08.09.2023
-Uhrzeit: 15:00 Uhr
+###### Ort:
+Parkplatz neben der Schauenburghalle,  
+Gerhart-Hauptmann-Straße,  
+69221 Dossenheim
+###### Datum:
+Freitag, 08.09.2023
+###### Uhrzeit:
+15:00 Uhr
 {{< / faq >}}
