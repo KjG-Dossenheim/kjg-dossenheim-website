@@ -22,12 +22,12 @@ type: static
 * Ein Kindersitz, falls ihr Kind einen benötigt
 * Mäppchen mit Stiften, Schere und Kleber
 * Viel Spaß und gute Laune :-)
-##### Mitgenommen können
+##### Mitgenommen werden können
 * Spiele, Bücher
 * Kuscheltier/-kissen (nicht zu groß)
 * handliche Musikinstrumente
 * Musik-CDs (bitte mit Namen beschriften)
-##### Nicht mitgenommen dürfen
+##### Nicht mitgenommen werden dürfen
 * CD-Player
 * Lautsprecherboxen
 * Messer (auch Taschenmesser) und andere verletzungsgefährdende Gegenstände
