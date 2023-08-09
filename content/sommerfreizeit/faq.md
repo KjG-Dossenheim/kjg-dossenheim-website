@@ -6,7 +6,7 @@ type: static
 
 {{< faq title="Abfahrt" >}}
 ###### Ort:
-Parkplatz neben der Schauenburghalle,  
+Parkplatz neben der Schauenburghalle (gegenüber vom Schwimmbad),  
 Gerhart-Hauptmann-Straße,  
 69221 Dossenheim  
 ###### Datum:
@@ -29,8 +29,8 @@ Per E-Mail unter:
 {{< / faq >}}
 
 {{< faq title="Rückfahrt" >}}
-###### Ort:
-Parkplatz neben der Schauenburghalle,  
+###### Abholort:
+Parkplatz neben der Schauenburghalle (gegenüber vom Schwimmbad),  
 Gerhart-Hauptmann-Straße,  
 69221 Dossenheim
 ###### Datum:
