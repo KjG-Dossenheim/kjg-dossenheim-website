@@ -19,7 +19,7 @@ Samstag, 02.09.2023
 [Klick mich!](https://kjg-dossenheim.org/sommerfreizeit/packliste/)
 {{< / faq >}}
 
-{{< faq title="Kontakt" >}}
+{{< faq title="Notfall-Kontakt" >}}
 Per Telefon und WhatsApp unter:
 [0721 61906054](tel:072161906054)
 (Falls Sie niemanden erreichen sprechen Sie bitte auf die Mailbox)
