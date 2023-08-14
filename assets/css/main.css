@@ -42,8 +42,63 @@
     nav a {
         @apply text-white;
     }
+}
 
-    /* p {
-        @apply whitespace-break-spaces;
-    } */
+@layer components {
+    #consent-notice {
+            @apply bg-warning text-black text-center fixed bottom-0 w-full p-4 hidden;
+        }
+
+    #consent-notice button.manage-consent {
+        @apply text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+    }
+
+    #consent-notice button.approve-consent {
+        @apply text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
+    }
+
+    #consent-overlay {
+        @apply flex items-center justify-center fixed left-0 top-0 w-full h-full bg-black bg-opacity-75 z-50 overflow-auto hidden;
+    }
+
+    #consent-overlay.active {
+        @apply flex items-center justify-center fixed left-0 top-0 w-full h-full bg-black bg-opacity-75 z-50 overflow-auto;
+    }
+
+    #consent-overlay>div {
+        @apply bg-white rounded-lg shadow-lg w-11/12 md:w-1/2 lg:w-1/3;
+        max-width: 30rem;
+        padding: 1.75rem;
+        margin: auto;
+        cursor: initial;
+    }
+
+    #consent-overlay>div>div {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    #consent-overlay>div>div:last-child {
+        margin: 0;
+    }
+
+    #consent-overlay h3 {
+        padding-top: 0;
+    }
+
+    #consent-overlay input {
+        margin-top: 0.3rem;
+    }
+
+    #consent-overlay label {
+        display: block;
+    }
+
+    #consent-overlay button.save-consent {
+        @apply text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+    }
+
+    #consent-overlay button.approve-consent {
+        @apply text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
+    }
 }
