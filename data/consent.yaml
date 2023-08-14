@@ -1,0 +1,5 @@
+items:
+  - title: Cloudflare Web Analytics
+    description: Dieser Code gibt uns Aufschluss über die Anzahl der Besucher unserer Website, woher sie kommen und worauf sie klicken.
+    is_functional: false
+    script_file: cloudflare.js
