@@ -32,7 +32,7 @@
     }
 
     a {
-        @apply font-medium text-accent hover:underline;
+        @apply font-medium text-accent-500 hover:underline;
     }
 
     footer a {
@@ -46,7 +46,7 @@
 
 @layer components {
     #consent-notice {
-            @apply bg-warning text-black text-center fixed bottom-0 w-full p-4 hidden;
+            @apply bg-warning-500 text-black text-center fixed bottom-0 w-full p-4 hidden;
         }
 
     #consent-notice button.manage-consent {
@@ -54,7 +54,7 @@
     }
 
     #consent-notice button.approve-consent {
-        @apply text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
+        @apply text-white bg-success-700 hover:bg-success-800 focus:outline-none focus:ring-4 focus:ring-success-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-success-600 dark:hover:bg-success-700 dark:focus:ring-success-800
     }
 
     #consent-overlay {
@@ -99,6 +99,6 @@
     }
 
     #consent-overlay button.approve-consent {
-        @apply text-white bg-green-700 hover:bg-green-800 focus:outline-none focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800
+        @apply text-white bg-success-700 hover:bg-success-800 focus:outline-none focus:ring-4 focus:ring-success-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-success-600 dark:hover:bg-success-700 dark:focus:ring-success-800
     }
 }
