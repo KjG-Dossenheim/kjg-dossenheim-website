@@ -18,9 +18,28 @@ hardWraps = true
   url = '/'
   weight = 10
 [[menu.main]]
+  identifier = "aktionen"
   name = 'Aktionen'
   url = '/aktionen/'
   weight = 20
+[[menu.main]]
+    identifier = "sommerfreizeit"
+    name = "Sommerfreizeit"
+    url = "/sommerfreizeit/"
+    parent = "aktionen"
+    weight = 1
+[[menu.main]]
+    identifier = "anmeldung"
+    name = "Anmeldung"
+    url = "/sommerfreizeit/anmeldung/"
+    parent = "sommerfreizeit"
+    weight = 1
+[[menu.main]]
+    identifier = "tannenbaumaktion"
+    name = "Tannenbaumaktion"
+    url = "/tannenbaumaktion/"
+    parent = "aktionen"
+    weight = 2
 [[menu.main]]
   name = 'Über uns'
   url = '/about/'
