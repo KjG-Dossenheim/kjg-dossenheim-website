@@ -46,8 +46,8 @@
 
 @layer components {
     #consent-notice {
-            @apply bg-warning-500 text-black text-center fixed bottom-0 w-full p-4 hidden;
-        }
+        @apply bg-secondary-500 text-white text-center fixed bottom-0 w-full p-4 hidden;
+    }
 
     #consent-notice button.manage-consent {
         @apply text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
@@ -55,6 +55,10 @@
 
     #consent-notice button.approve-consent {
         @apply text-white bg-success-500 hover:bg-success-600 focus:outline-none focus:ring-4 focus:ring-success-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-success-400 dark:hover:bg-success-500 dark:focus:ring-success-600
+    }
+
+    #consent-notice button.deny-consent {
+        @apply text-white bg-error-500 hover:bg-error-600 focus:outline-none focus:ring-4 focus:ring-error-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-error-500 dark:hover:bg-error-600 dark:focus:ring-error-800
     }
 
     #consent-overlay {
