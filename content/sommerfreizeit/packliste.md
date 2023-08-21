@@ -21,6 +21,7 @@ type: static
 * Impfpass
 * Ein Kindersitz, falls ihr Kind einen benötigt
 * Mäppchen mit Stiften, Schere und Kleber
+* Leeres Marmeladenglas
 * Viel Spaß und gute Laune :-)
 ##### Mitgenommen werden können
 * Spiele, Bücher
