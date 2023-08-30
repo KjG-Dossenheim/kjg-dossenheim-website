@@ -8,6 +8,7 @@ pluralizelisttitles = false
 
 [markup.goldmark.renderer]
 hardWraps = true
+unsafe = true
 
 [params]
   Description = "Die KjG Dossenheim vertritt die Interessen der Kinder und Jugendlichen in der katholischen Gemeinden der Stadt Dossenheim"
@@ -48,6 +49,7 @@ hardWraps = true
   name = 'Kontakt'
   url = '/kontakt/'
   weight = 30
+
 
 
 [privacy]
