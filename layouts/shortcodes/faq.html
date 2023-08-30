@@ -1,6 +1,6 @@
 <div class="mb-4 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <h4>{{ with .Get "title" }}{{ . }}{{ end }}</h4>
-    <div class="faq-answer">
+    <div>
         {{ .Inner | markdownify }}
     </div>
 </div>
