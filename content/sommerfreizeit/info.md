@@ -53,5 +53,6 @@ Gerhart-Hauptmann-Straße,
 ###### Datum:
 Freitag, 08.09.2023
 ###### Uhrzeit:
-13:00 Uhr
+Geplant ist 13:00 Uhr.
+Wie fahren ab ca. 11:30 von Schloss Ebersberg los.
 {{< / faq >}}
