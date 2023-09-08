@@ -53,6 +53,5 @@ Gerhart-Hauptmann-Straße,
 ###### Datum:
 Freitag, 08.09.2023
 ###### Uhrzeit:
-Geplant ist 13:00 Uhr.
-Wie fahren ab ca. 11:30 von Schloss Ebersberg los.
+Aktuell sollten wir um 13:30 Uhr in Dossenheim angekommen.
 {{< / faq >}}
