@@ -9,7 +9,7 @@ type: static
 {{< html>}}
 <section class=" text-gray-800 text-center">
     <div class="px-6 py-6 md:px-12">
-        <h2 class="text-5xl my-12 font-bold tracking-tight">
+        <h4 class="sm:my-12 font-bold tracking-tight">
             <a class="inline-block px-7 py-3 bg-primary-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out mb-2 md:mr-2"
                 href="https://budibase.kjg-dossenheim.org/app/sommerfreizeit-2023" role="button" data-mdb-ripple="true"
                 data-mdb-ripple-color="light">
@@ -23,7 +23,7 @@ type: static
             <span class="text-blue-600">
                 <h6>Anmeldeschluss: Montag, 14. August 2023</h6>
             </span>
-        </h2>
+        </h4>
     </div>
 </section>
 {{< /html>}}

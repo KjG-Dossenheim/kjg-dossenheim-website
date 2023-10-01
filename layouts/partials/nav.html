@@ -88,7 +88,7 @@
     <div id="mega-menu-full"
       class="items-center justify-between font-medium hidden w-full md:flex md:w-auto md:order-1 ">
       <ul
-        class="flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 text-white">
+        class="flex flex-col md:p-0 mt-4 md:flex-row md:space-x-8 md:mt-0 text-white">
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
         <li class="list-none ">
@@ -111,23 +111,23 @@
       </ul>
     </div>
   </div>
-  <div id="mega-menu-full-dropdown"
-    class="mt-1 bg-secondary-500 rounded-xl border-0 hidden">
-    <div class="grid max-w-screen-xl px-4 py-5 mx-auto sm:grid-cols-2 md:px-6">
-      <ul>
+  <div id="mega-menu-full-dropdown" class="mt-1 hidden">
+    <div class="max-w-screen-xl p-2 mx-auto bg-secondary-500 rounded-xl border-0">
+      <div class="flex flex-col sm:flex-row items-center justify-evenly">
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
         {{ range .Children }}
-        <li class="list-none">
-          <a href="{{.URL}}" class="block p-3 rounded-lg">
-            <div class="font-semibold">{{ .Name }}</div>
-            {{/*  <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already using.</span>  */}}
+        <div class="w-full">
+          <a href="{{.URL}}" class="rounded-lg block p-2 w-full">
+            <div class="font-semibold sm:text-center">{{ .Name }}</div>
+            {{/* <span class="text-sm text-gray-500 dark:text-gray-400">Connect with third-party tools that you're already
+              using.</span> */}}
           </a>
-        </li>
+        </div>
         {{end}}
         {{end}}
         {{end}}
-      </ul>
+      </div>
     </div>
   </div>
 </nav>
