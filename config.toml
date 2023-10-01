@@ -26,6 +26,7 @@ unsafe = true
 [[menu.main]]
     identifier = "martinszug"
     name = "Martinszug"
+    description = "Der Martinszug der KjG Dossenheim"
     url = "/martinszug/"
     parent = "aktionen"
     weight = 1
