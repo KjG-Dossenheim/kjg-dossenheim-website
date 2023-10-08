@@ -1,5 +1,5 @@
 ---
-title: Tannenbaumaktion
+title: "Tannenbaumaktion der KjG Dossenheim"
 type: static
 ---
 Die Tannenbaumaktion der Katholischen jungen Gemeinde (KjG) Dossenheim ist eine traditionelle Veranstaltung, die jedes Jahr nach Weihnachten stattfindet. Diese Aktion dient einem guten Zweck und ermöglicht es den Menschen, ihre Weihnachtsbäume auf umweltfreundliche Weise zu entsorgen, während sie gleichzeitig die Möglichkeit haben, etwas Gutes zu tun.
