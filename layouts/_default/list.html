@@ -1,14 +1,18 @@
 {{ define "main" }}
-<section class="bg-white dark:bg-gray-900">
-        <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-                <div class="text-gray-500 sm:text-lg dark:text-gray-400">
-                        <h1 class="mb-4 tracking-tight text-center">
-                                {{.Page.Title}}
-                        </h1>
-                        <p class="mb-4">
-                                {{ .Content }}
-                        </p>
-                </div>
+<section class="bg-white">
+    <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+        <div>
+            {{ if .Page.Title }}
+            <h2 class="mb-4 text-center">
+                {{.Page.Title}}
+            </h2>
+            {{ end}}
+            {{ if .Content }}
+            <div>
+                {{ .Content }}
+            </div>
+            {{ end }}
         </div>
+    </div>
 </section>
 {{ end }}

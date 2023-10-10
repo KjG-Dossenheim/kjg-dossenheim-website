@@ -1,0 +1,17 @@
+{{ define "main" }}
+<article class="bg-white dark:bg-gray-900">
+	<div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+		<div class="max-w-screen-lg text-gray-500 sm:text-lg dark:text-gray-400">
+			<h2 class="mb-4 tracking-tight">
+				{{ .Title }}
+			</h2>
+			<h4 class="mb-4 font-light">
+				<time>
+					{{ .Date | time.Format ":date_full" }}
+				</time>
+			</h4>
+			<div class="mb-4">{{ .Content }}</div>
+		</div>
+	</div>
+</article>
+{{ end }}

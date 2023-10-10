@@ -1,5 +1,7 @@
-<div class="mb-4 p-6 pt-3 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="mb-4 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    {{ if .Get "title"}}
     <h4>{{ with .Get "title" }}{{ . }}{{ end }}</h4>
+    {{ end }}
     <div>
         {{ .Inner | markdownify }}
     </div>
