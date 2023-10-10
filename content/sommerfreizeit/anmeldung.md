@@ -7,12 +7,12 @@ summary: Jetzt Anmelden!
 <section class=" text-gray-800 text-center">
     <div class="px-3 md:px-4">
         <div>
-            <a class="inline-block px-4 bg-primary-600 text-white font-medium leading-snug rounded-full shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg m-2 md:mr-2"
+            <a class="inline-block px-4 py-2 bg-primary-600 text-white font-medium leading-snug rounded-full shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg m-2 md:mr-2"
                 href="https://budibase.kjg-dossenheim.org/app/sommerfreizeit-2023" target="_blank" role="button" data-mdb-ripple="true"
                 data-mdb-ripple-color="light">
                 <h5 class="text-white">Freizeitpass</h5>
             </a>
-            <a class="inline-block px-4 bg-primary-600 text-white font-medium text-sm leading-snug rounded-full shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg m-2 md:mr-2"
+            <a class="inline-block px-4 py-2 bg-primary-600 text-white font-medium text-sm leading-snug rounded-full shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg m-2 md:mr-2"
                 href="https://pretix.kjg-dossenheim.org/kjg-dossenheim/freizeit-2023/" target="_blank" role="button" data-mdb-ripple="true"
                 data-mdb-ripple-color="light">
                 <h5 class="text-white">Teilnehmerbeitrag</h5>
