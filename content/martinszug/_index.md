@@ -1,6 +1,6 @@
 ---
 title: "Martinszug der KjG Dossenheim"
-type: static
+
 ---
 
 {{< faq >}}

@@ -1,6 +1,6 @@
 ---
 title: Datenschutzerklärung
-type: static
+
 ---
 {{< html>}}
 <section class=" text-gray-800 text-center">

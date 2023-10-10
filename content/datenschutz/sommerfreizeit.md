@@ -1,6 +1,6 @@
 ---
 title: Datenschutzerklärung - Sommerfreizeit
-type: static
+
 ---
 Wir, die Katholische junge Gemeinde (KjG) Dossenheim, sind uns der Bedeutung des Schutzes personenbezogener Daten bewusst. Mit dieser Datenschutzerklärung möchten wir Sie darüber informieren, welche personenbezogenen Daten wir im Rahmen der Sommerfreizeit erheben, verarbeiten und wie wir diese Daten schützen. Diese Datenschutzerklärung gilt für alle Teilnehmer und Teilnehmerinnen sowie für alle Eltern bzw. Erziehungsberechtigten der minderjährigen Teilnehmer und Teilnehmerinnen.
 

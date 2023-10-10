@@ -1,7 +1,7 @@
 ---
 title: "Informationen"
 summary: Alle wichtigen Informationen für die Freizeit
-type: static
+
 ---
 
 {{< faq title="Abfahrt" >}}

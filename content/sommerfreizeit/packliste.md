@@ -1,7 +1,7 @@
 ---
 title: "Packliste"
 summary: Die Packliste für unsere Sommerfreizeit
-type: static
+
 ---
 ##### Zur Freizeit mitgenommen werden sollten:
 * ausreichend Kleidung/Wechselwäsche

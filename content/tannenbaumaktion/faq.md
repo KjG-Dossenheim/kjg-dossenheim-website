@@ -1,6 +1,6 @@
 ---
 title: FAQ - Tannenbaumaktion
-type: static
+
 ---
 {{< faq title="Wo kann ich die Gutscheine kaufen?" >}}
 * Bäckerei Sommer, Heidelberger Str. 15

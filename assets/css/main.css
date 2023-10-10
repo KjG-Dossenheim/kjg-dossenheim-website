@@ -4,27 +4,27 @@
 
 @layer base {
     h1 {
-        @apply py-2 text-4xl sm:text-5xl font-extrabold text-primary-500 dark:text-white;
+        @apply text-4xl sm:text-5xl font-extrabold text-primary-500 ;
     }
 
     h2 {
-        @apply py-2 text-3xl sm:text-4xl font-extrabold text-primary-500 dark:text-white;
+        @apply text-3xl sm:text-4xl font-extrabold text-primary-500 ;
     }
 
     h3 {
-        @apply py-2 text-2xl sm:text-3xl font-extrabold text-primary-500 dark:text-white;
+        @apply text-2xl sm:text-3xl font-extrabold text-primary-500 ;
     }
 
     h4 {
-        @apply py-2 text-xl sm:text-2xl font-extrabold text-primary-500 dark:text-white;
+        @apply text-xl sm:text-2xl font-extrabold text-primary-500 ;
     }
 
     h5 {
-        @apply py-2 text-lg sm:text-xl font-extrabold text-primary-500 dark:text-white;
+        @apply text-lg sm:text-xl font-extrabold text-primary-500 ;
     }
 
     h6 {
-        @apply py-2 sm:text-lg font-extrabold text-primary-500 dark:text-white;
+        @apply sm:text-lg font-extrabold text-primary-500 ;
     }
 
     li {
@@ -50,15 +50,15 @@
     }
 
     #consent-notice button.manage-consent {
-        @apply text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+        @apply text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2   
     }
 
     #consent-notice button.approve-consent {
-        @apply text-white bg-success-500 hover:bg-success-600 focus:outline-none focus:ring-4 focus:ring-success-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-success-400 dark:hover:bg-success-500 dark:focus:ring-success-600
+        @apply text-white bg-success-500 hover:bg-success-600 focus:outline-none focus:ring-4 focus:ring-success-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2   
     }
 
     #consent-notice button.deny-consent {
-        @apply text-white bg-error-500 hover:bg-error-600 focus:outline-none focus:ring-4 focus:ring-error-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-error-500 dark:hover:bg-error-600 dark:focus:ring-error-800
+        @apply text-white bg-error-500 hover:bg-error-600 focus:outline-none focus:ring-4 focus:ring-error-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2   
     }
 
     #consent-overlay {
@@ -99,10 +99,10 @@
     }
 
     #consent-overlay button.save-consent {
-        @apply text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800
+        @apply text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2   
     }
 
     #consent-overlay button.approve-consent {
-        @apply text-white bg-success-500 hover:bg-success-600 focus:outline-none focus:ring-4 focus:ring-success-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-success-400 dark:hover:bg-success-500 dark:focus:ring-success-600
+        @apply text-white bg-success-500 hover:bg-success-600 focus:outline-none focus:ring-4 focus:ring-success-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2   
     }
 }
