@@ -1,5 +1,5 @@
 ---
-title: "72-Stunden-Aktion der KjG Dossenheim und dem BDKJ"
+title: "72-Stunden-Aktion der KjG Dossenheim"
 
 ---
 {{< faq >}}
