@@ -53,5 +53,5 @@ Gerhart-Hauptmann-Straße,
 ###### Datum:
 Freitag, 08.09.2023
 ###### Uhrzeit:
-13:00 Uhr
+Aktuell sollten wir um 13:30 Uhr in Dossenheim angekommen.
 {{< / faq >}}
