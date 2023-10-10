@@ -1,6 +1,6 @@
-<div class="mb-4 p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="my-3 p-4 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     {{ if .Get "title"}}
-    <h4>{{ with .Get "title" }}{{ . }}{{ end }}</h4>
+    <h6>{{ with .Get "title" }}{{ . }}{{ end }}</h6>
     {{ end }}
     <div>
         {{ .Inner | markdownify }}

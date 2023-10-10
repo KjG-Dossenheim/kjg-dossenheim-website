@@ -1,6 +1,6 @@
 ---
 title: Impressum
-type: static
+
 ---
 Katholische Junge Gemeinde Dossenheim  
 Schriesheimer Str. 18  

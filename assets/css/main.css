@@ -4,27 +4,27 @@
 
 @layer base {
     h1 {
-        @apply py-2 text-4xl sm:text-5xl font-extrabold text-primary-500 ;
+        @apply text-4xl sm:text-5xl font-extrabold text-primary-500 ;
     }
 
     h2 {
-        @apply py-2 text-3xl sm:text-4xl font-extrabold text-primary-500 ;
+        @apply text-3xl sm:text-4xl font-extrabold text-primary-500 ;
     }
 
     h3 {
-        @apply py-2 text-2xl sm:text-3xl font-extrabold text-primary-500 ;
+        @apply text-2xl sm:text-3xl font-extrabold text-primary-500 ;
     }
 
     h4 {
-        @apply py-2 text-xl sm:text-2xl font-extrabold text-primary-500 ;
+        @apply text-xl sm:text-2xl font-extrabold text-primary-500 ;
     }
 
     h5 {
-        @apply py-2 text-lg sm:text-xl font-extrabold text-primary-500 ;
+        @apply text-lg sm:text-xl font-extrabold text-primary-500 ;
     }
 
     h6 {
-        @apply py-2 sm:text-lg font-extrabold text-primary-500 ;
+        @apply sm:text-lg font-extrabold text-primary-500 ;
     }
 
     li {

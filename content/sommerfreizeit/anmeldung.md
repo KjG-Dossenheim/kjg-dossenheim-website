@@ -1,9 +1,6 @@
 ---
 title: Sommerfreizeit 2023 - Anmeldung
-draft: false
-date: 2023-04-01
 summary: Jetzt Anmelden!
-type: static
 ---
 
 {{< html>}}
@@ -42,9 +39,11 @@ Alle Kinder ab der 3. Klasse und Jugendliche bis 14 Jahre.
 
 {{< faq title="Kosten">}}
 **200€ (Solidarpreis 180-220€)**  
-200€ entspricht dem kalkulierten Teilnahmepreis für diese Freizeit. Um für Familien oder finanziell Schwächere flexibler zu sein, bieten wir eine Preisspanne an.
-Wer nicht mehr bezahlen kann oder mehrere Kinder anmeldet, kann den Mindestbetrag (180€) bezahlen.
-Wer dagegen mehr bezahlen kann als den kalkulierten Teilnahmepreis (200€), kann dies gerne tun und hilft somit die Finanzen wieder auszugleichen.
+200€ entspricht dem kalkulierten Teilnahmepreis für diese Freizeit.  
+Um für Familien oder finanziell Schwächere flexibler zu sein, bieten wir eine Preisspanne an.  
+Wer nicht mehr bezahlen kann oder mehrere Kinder anmeldet,kann den Mindestbetrag (180€) bezahlen.  
+Wer dagegen mehr bezahlen kann als den kalkulierten Teilnahmepreis (200€),  
+kann dies gerne tun und hilft somit die Finanzen wieder auszugleichen.  
 Beträge dazwischen sind ebenfalls möglich.  
 ###### Zuschuss:  
 Sind auch 180€ zu viel?  

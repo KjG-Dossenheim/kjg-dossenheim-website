@@ -1,6 +1,6 @@
 ---
 title: Aktionen
-type: static
+
 ---
 {{< html >}}
 <section class="bg-white dark:bg-gray-900">

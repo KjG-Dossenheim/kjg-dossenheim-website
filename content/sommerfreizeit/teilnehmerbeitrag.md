@@ -1,7 +1,7 @@
 ---
 title: Sommerfreizeit - Teilnehmerbeitrag
 summary: Jetzt Buchen!
-type: static
+
 ---
 {{< html>}}
 <link rel="stylesheet" type="text/css" href="https://pretix.kjg-dossenheim.org/kjg-dossenheim/freizeit-2023/widget/v1.css">

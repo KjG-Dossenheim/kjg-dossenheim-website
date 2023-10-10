@@ -1,6 +1,6 @@
 ---
 title: Datenschutzerklärung - Pretix
-type: static
+
 ---
 ###### Datum des Inkrafttretens: 15. Juni 2023
 
