@@ -2,7 +2,7 @@
 title: Sommerfreizeit 2024
 summary: Jetzt Anmelden!
 ---
-{{< html>}}
+<!-- {{< html>}}
 <section class=" text-gray-800 text-center">
     <div class="px-3 md:px-4">
         <div>
@@ -22,7 +22,7 @@ summary: Jetzt Anmelden!
         </div>
     </div>
 </section>
-{{< /html>}}
+{{< /html>}} -->
 
 {{< faq title="Zeitraum" >}}
 Samstag 31. August 2024 bis Samstag 7. September 2024.
