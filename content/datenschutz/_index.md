@@ -5,18 +5,18 @@ title: Datenschutzerklärung
 {{< html>}}
 <section class=" text-gray-800 text-center">
     <div >
-        <h2 class="text-5xl my-12 font-bold tracking-tight">
-            <a class="inline-block px-7 py-3 bg-primary-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out mb-2 md:mr-2"
+        <h5 class="text-5xl my-6 font-bold tracking-tight">
+            <a class="inline-block px-7 py-3 bg-primary-500 text-white leading-snug uppercase rounded-full shadow-md hover:bg-primary-600 hover:shadow-lg focus:bg-primary-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out mb-2 md:mr-2"
                 href="/datenschutz/sommerfreizeit/" role="button" data-mdb-ripple="true"
                 data-mdb-ripple-color="light">
                 <h6 class="text-white">Sommerfreizeit</h6>
             </a>
-            <a class="inline-block px-7 py-3 bg-primary-600 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:bg-primary-700 hover:shadow-lg focus:bg-primary-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out mb-2 md:mr-2"
+            <a class="inline-block px-7 py-3 bg-primary-500 text-white leading-snug uppercase rounded-full shadow-md hover:bg-primary-600 hover:shadow-lg focus:bg-primary-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-800 active:shadow-lg transition duration-150 ease-in-out mb-2 md:mr-2"
                 href="/datenschutz/pretix/" role="button" data-mdb-ripple="true"
                 data-mdb-ripple-color="light">
                 <h6 class="text-white">Pretix</h6>
             </a>
-        </h2>
+        </h5>
     </div>
 </section>
 {{< /html>}}
