@@ -3,8 +3,6 @@ summary: Jetzt ausfüllen!
 type: plain
 ---
 {{< html>}}
-<section class="py-50">
-<iframe class="min-h-screen w-full" frameborder="0" allow="clipboard-write;camera;geolocation;fullscreen" src="https://budibase.kjg-dossenheim.org/embed/sommerfreizeit-2023">
+<iframe class="min-h-screen w-full" allow="clipboard-write;camera;geolocation;fullscreen" src="https://budibase.kjg-dossenheim.org/embed/sommerfreizeit-2024">
 </iframe>
-</section>
 {{< /html>}}
