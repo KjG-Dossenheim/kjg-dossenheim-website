@@ -7,17 +7,17 @@ summary: Jetzt Anmelden!
     <div class="px-3 md:px-4">
         <div>
             <a class="inline-block px-4 py-2 bg-primary-500 text-white font-medium leading-snug rounded-full shadow-md hover:bg-primary-600 hover:shadow-lg focus:bg-primary-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-lg m-2 md:mr-2"
-                href="https://budibase.kjg-dossenheim.org/app/sommerfreizeit-2024" target="_blank" role="button" data-mdb-ripple="true"
+                href="/sommerfreizeit/freizeitpass" target="_blank" role="button" data-mdb-ripple="true"
                 data-mdb-ripple-color="light">
                 <h5 class="text-white">Freizeitpass</h5>
             </a>
             <a class="inline-block px-4 py-2 bg-primary-500 text-white font-medium text-sm leading-snug rounded-full shadow-md hover:bg-primary-600 hover:shadow-lg focus:bg-primary-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-lg m-2 md:mr-2"
-                href="https://pretix.kjg-dossenheim.org/kjg-dossenheim/freizeit-2024/" target="_blank" role="button" data-mdb-ripple="true"
+                href="/sommerfreizeit/teilnehmerbeitrag" target="_blank" role="button" data-mdb-ripple="true"
                 data-mdb-ripple-color="light">
                 <h5 class="text-white">Teilnehmerbeitrag</h5>
             </a>
             <span class="text-blue-600">
-                <h6>Anmeldeschluss: Montag, 14. August 2023</h6>
+                <h6>Anmeldeschluss: Montag, 14. August 2024</h6>
             </span>
         </div>
     </div>
