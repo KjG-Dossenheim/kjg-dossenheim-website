@@ -4,7 +4,7 @@
     <meta name="description" content="{{ .Summary }}">
     <title>
         {{- if .IsHome -}}
-        Home | {{ .Site.Title }}
+        Start | {{ .Site.Title }}
         {{- else if .Params.hide_site_title -}}
         {{ .Page.Title }}
         {{- else if .Page.Title -}}
