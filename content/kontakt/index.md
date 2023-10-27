@@ -4,9 +4,7 @@ type: plain
 ---
 {{< html >}}
 <section class="bg-white dark:bg-gray-900">
-    <div class="max-w-screen-md px-4 py-8 mx-auto lg:py-16">
-        <h2 class="mb-4 text-4xl font-extrabold tracking-tight text-center text-gray-900 dark:text-white">Kontakt
-        </h2>
+    <div class="max-w-screen-md px-4 pb-8 mx-auto lg:pb-16">
         <form name="kontakt" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="space-y-8">
             <div>
                 <p class="hidden">
@@ -40,7 +38,7 @@ type: plain
                     placeholder="Hinterlasse eine Nachricht..."></textarea ></label>
             </div>
             <div>
-                <button type="submit" class="px-5 py-3 text-sm font-medium text-center text-white rounded-lg bg-primary-500 sm:w-fit hover:bg-primary-500-focus focus:ring-4 focus:outline-none focus:ring-primary-300 dark:bg-primary-500-600 dark:hover:bg-primary-500-700 dark:focus:ring-primary-800">Senden</button>
+                <button type="submit" class="px-5 py-3 text-sm font-medium text-center text-white rounded-full bg-primary-500 sm:w-fit hover:bg-primary-600 hover:shadow-lg focus:bg-primary-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-lg">Senden</button>
             </div>
         </form>
     </div>

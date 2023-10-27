@@ -1,18 +1,23 @@
 {{ define "main" }}
-<section>
-    <div class="p-4 mx-auto max-w-screen-xl lg:px-44">
-        <div>
-            {{ if .Page.Title }}
-            <h2 class="m-10 text-center">
-                {{ .Page.Title | markdownify }}
-            </h2>
-            {{ end}}
-            {{ if .Content }}
+<section class="grid grid-cols-12 ">
+    <div class="col-span-0 md:col-span-1 lg:col-span-2">
+    </div>
+    <div class="col-span-12 md:col-span-10 lg:col-span-8 bg-white shadow-2xl">
+        <div class="p-4 px-8 mx-auto max-w-screen-xl min-h-screen">
             <div>
-                {{ .Content }}
+                {{ if .Page.Title }}
+                <h2 class="m-10 text-center">
+                    {{ .Page.Title | markdownify }}
+                </h2>
+                {{ end}}
+                {{ if .Content }}
+                <div>
+                    {{ .Content }}
+                </div>
+                {{ end }}
             </div>
-            {{ end }}
         </div>
     </div>
+    <div class="col-span-0 md:col-span-1 lg:col-span-2">
 </section>
 {{ end }}

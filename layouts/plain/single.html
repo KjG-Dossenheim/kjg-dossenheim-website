@@ -1,3 +1,23 @@
 {{ define "main" }}
-        {{ .Content }}
+<section class="grid grid-cols-12 ">
+    <div class="col-span-2">
+    </div>
+    <div class="col-span-8 bg-white shadow-2xl">
+        <div class="p-4 px-8 mx-auto max-w-screen-xl min-h-screen">
+            <div>
+                {{ if .Page.Title }}
+                <h2 class="m-10 text-center">
+                    {{ .Page.Title | markdownify }}
+                </h2>
+                {{ end}}
+                {{ if .Content }}
+                <div>
+                    {{ .Content }}
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    <div class="col-span-2">
+</section>
 {{ end }}
