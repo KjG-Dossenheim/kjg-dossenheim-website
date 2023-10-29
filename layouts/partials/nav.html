@@ -32,7 +32,7 @@
         <li class="list-none">
           {{ .Pre }}
           <a href="{{.URL}}"
-            class="block py-2 pl-3 pr-4 "
+            class="block py-2 pl-3 pr-4 text-white"
             aria-current="page">{{ .Name }}</a>
             {{ .Post }}
         </li>
@@ -48,7 +48,7 @@
         {{ if .HasChildren }}
         {{ range .Children }}
         <div class="w-full text-white">
-          <a href="{{.URL}}" class="rounded-lg block p-2 w-full">
+          <a href="{{.URL}}" class="rounded-lg block p-2 w-full text-white">
             <div class="font-semibold md:text-center whitespace-nowrap">{{ .Name }}</div>
           </a>
         </div>

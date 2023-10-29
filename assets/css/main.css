@@ -4,7 +4,7 @@
 
 @layer base {
     h1 {
-        @apply text-4xl sm:text-5xl font-extrabold text-primary-500 ;
+        @apply text-4xl sm:text-5xl font-extrabold text-primary-500;
     }
 
     h2 {
@@ -35,12 +35,27 @@
         @apply font-medium text-accent-500 hover:underline;
     }
 
-    footer a {
-        @apply text-white;
+    @font-face {
+        font-family: 'SeccaKjG-Rg';
+        src: font-url('fonts/SeccaKjG-Rg.ttf');
+        font-style: normal;
     }
 
-    nav a {
-        @apply text-white;
+    @font-face {
+        font-family: 'SeccaKjG-It';
+        src: font-url('fonts/SeccaKjG-It.ttf');
+        font-style: italic;
+    }
+
+    @font-face {
+        font-family: 'SeccaKjG-Bd';
+        src: font-url('fonts/SeccaKjG-Bd.ttf');
+    }
+
+    @font-face {
+        font-family: 'SeccaKjG-Bd-It';
+        src: font-url('fonts/SeccaKjG-Bd-It.ttf');
+        font-style: italic;
     }
 }
 
