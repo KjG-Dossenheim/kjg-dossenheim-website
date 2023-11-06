@@ -1,0 +1,31 @@
+aktuell:
+  - name: Friedensgebet
+    start_date: 2024-01-12
+    description:
+    link:
+  - name: Tannenbaumaktion
+    start_date: 2024-01-13
+    description:
+    link: /tannenbaumaktion
+  - name: Sommerfreizeit
+    start_date: 2024-08-31
+    end_date: 2024-09-07
+    description:
+    link: /sommerfreizeit
+  - name: Martinszug
+    start_date: 2024-11-09
+    description:
+    link: /martinsumzug
+  - name: Adventsmarkt
+    start_date: 2024-12-01
+    end_date: 2024-12-02
+    description:
+    link: /adventsmarkt
+vorschau:
+  year: 2025
+  aktionen:
+    - name: Friedensgebet
+      start_date: 2025-01-01
+      date: 12. Januar 2023
+      description:
+      link:
