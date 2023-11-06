@@ -45,4 +45,4 @@ Katholische junge Gemeinde (KjG) Dossenheim
 69221 Dossenheim  
 E-Mail: datenschutz@kjg-dossenheim.de
 
-Diese Datenschutzerklärung kann von Zeit zu Zeit aktualisiert werden, um Änderungen in der Gesetzgebung oder bei der Datenverarbeitung widerzuspiegeln. Wir empfehlen Ihnen, diese Datenschutzerklärung regelmäßig zu überprüfen, um auf dem neuesten Stand zu bleiben. Stand: [Datum der letzten Aktualisierung].
+Diese Datenschutzerklärung kann von Zeit zu Zeit aktualisiert werden, um Änderungen in der Gesetzgebung oder bei der Datenverarbeitung widerzuspiegeln. Wir empfehlen Ihnen, diese Datenschutzerklärung regelmäßig zu überprüfen, um auf dem neuesten Stand zu bleiben.  
