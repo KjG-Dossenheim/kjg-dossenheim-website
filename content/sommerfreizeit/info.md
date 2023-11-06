@@ -1,0 +1,133 @@
+---
+title: Sommerfreizeit 2024
+summary: Informationen zur Sommerfreizeit!
+---
+<!-- {{< html>}}
+<section class=" text-gray-800 text-center">
+    <div class="px-3 md:px-4">
+        <div>
+            <a class="inline-block px-4 py-2 bg-primary-500 text-white font-medium leading-snug rounded-full shadow-md hover:bg-primary-600 hover:shadow-lg focus:bg-primary-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-lg m-2 md:mr-2"
+                href="/sommerfreizeit/freizeitpass" target="_blank" role="button" data-mdb-ripple="true"
+                data-mdb-ripple-color="light">
+                <h5 class="text-white">Freizeitpass</h5>
+            </a>
+            <a class="inline-block px-4 py-2 bg-primary-500 text-white font-medium text-sm leading-snug rounded-full shadow-md hover:bg-primary-600 hover:shadow-lg focus:bg-primary-600 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-primary-700 active:shadow-lg m-2 md:mr-2"
+                href="/sommerfreizeit/teilnehmerbeitrag" target="_blank" role="button" data-mdb-ripple="true"
+                data-mdb-ripple-color="light">
+                <h5 class="text-white">Teilnehmerbeitrag</h5>
+            </a>
+            <span class="text-blue-600">
+                <h6>Anmeldeschluss: Montag, 14. August 2024</h6>
+            </span>
+        </div>
+    </div>
+</section>
+{{< /html>}} -->
+
+{{< faq title="Zeitraum" >}}
+Samstag 31. August 2024 bis Samstag 7. September 2024.
+{{< / faq >}}
+
+<!-- 
+{{< faq title="Motto" >}}
+"Sommerfreizeit 2023 - auf der Suche nach dem (Frei)-Geist Hubi"
+{{< / faq >}}
+-->
+
+{{< faq title="Alter">}}
+Alle Kinder ab der 3. Klasse und Jugendliche bis 14 Jahre.
+{{< / faq >}}
+
+<!-- {{< faq title="Kosten">}}
+**200€ (Solidarpreis 180-220€)**  
+200€ entspricht dem kalkulierten Teilnahmepreis für diese Freizeit.  
+Um für Familien oder finanziell Schwächere flexibler zu sein, bieten wir eine Preisspanne an.  
+Wer nicht mehr bezahlen kann oder mehrere Kinder anmeldet,kann den Mindestbetrag (180€) bezahlen.  
+Wer dagegen mehr bezahlen kann als den kalkulierten Teilnahmepreis (200€),  
+kann dies gerne tun und hilft somit die Finanzen wieder auszugleichen.  
+Beträge dazwischen sind ebenfalls möglich.
+###### Zuschuss:  
+Sind auch 180€ zu viel?  
+Wir unterstützen Sie gerne individuell. Sprechen Sie uns einfach an.
+{{< / faq >}} -->
+
+{{< faq title="Leitungsteam">}}
+Das Team besteht aus der Evangelischen Jugend Dossenheim sowie aus der KjG Dossenheim.
+{{< / faq >}}
+
+{{< faq title="Unterkunft">}}
+Die Kinder sind in Mehrbettzimmern untergebracht und werden durch das eigene Küchenteam verpflegt.  
+   
+**Adresse:**  
+Otto-Riethmüller-Haus
+Am Weiher 47
+67475 Weidenthal
+   
+http://www.orh.de
+{{< / faq >}}
+
+{{< faq title="An- und Abreise">}}
+Die An- und Abreise findet dieses Jahr per Bus statt.  
+Genauere Infos erhalten Sie vor der Freizeit.
+{{< / faq >}}
+
+{{< faq title="Weitere Informationen">}}
+Sie haben noch Fragen? Dann wenden Sie sich gerne an uns!
+
+Per Telefon und WhatsApp:
+[0721 61906054](tel:072161906054)
+
+Per Mail:
+info@kjg-dossenheim.org  
+{{< / faq >}}
+
+{{< html>}}
+<section>
+    <div class="py-8 mx-auto max-w-screen-xl lg:py-16">
+        <div class="mx-auto max-w-screen-md sm:text-center">
+            <h2 class="mb-4 text-3xl tracking-tight font-extrabold sm:text-4xl ">Für unseren Freizeit-Newsletter
+                anmelden</h2>
+            <p class="mx-auto mb-8 max-w-2xl font-light text-gray-500 md:mb-12 sm:text-xl ">Bleib auf dem Laufenden über
+                Ankündigungen zur Sommerfreizeit, indem du dich mit deiner E-Mail-Adresse anmeldest.</p>
+            <form method="post" action="https://listmonk.kjg-dossenheim.org/subscription/form">
+                <div class="items-center mb-3 space-y-4 sm:flex sm:space-y-0">
+                            <div class="relative w-full">
+                                <label for="email" class="hidden mb-2 text-sm font-medium ">Email address</label>
+                                <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                                    <svg class="w-5 h-5 text-gray-500 " fill="currentColor" viewBox="0 0 20 20"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                                        <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                                    </svg>
+                                </div>
+                                <input
+                                    class="block p-3 pl-10 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500"
+                                    type="email" name="email" required placeholder="E-Mail" />
+                            </div>
+                            <div class="relative ">
+                                <label for="email" class="hidden mb-2 font-medium ">Name</label>
+                                <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
+                                    <svg class="w-3.5 h-3.5 text-gray-500" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                                        fill="currentColor" viewBox="0 0 14 18">
+                                        <path
+                                            d="M7 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9Zm2 1H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z" />
+                                    </svg>
+                                </div>
+                                <input
+                                    class="block p-3 pl-10 text-gray-900 bg-gray-50 border border-gray-300  focus:ring-primary-500 focus:border-primary-500 rounded-lg sm:rounded-none"
+                                    type="text" name="name" required placeholder="Name (optional)" />
+                            </div>
+                    <div>
+                        <input type="hidden" name="l" checked value="2c5ab757-4c34-4017-a069-4b4a3b3168fd" />
+                        <button type="submit"
+                            class="py-3 px-5 w-full font-medium text-center text-white rounded-lg border cursor-pointer bg-primary-500 border-primary-400 sm:rounded-none sm:rounded-r-lg hover:bg-primary-600 focus:ring-4 focus:ring-primary-300">Anmelden</button>
+                    </div>
+                </div>
+                <div class="mx-auto max-w-screen-sm text-sm text-center text-gray-500 newsletter-form-footer ">Der
+                    Schutz deiner Daten ist uns wichtig. <a href="/datenschutz"
+                        class="font-medium text-primary-500 hover:underline">Lese unsere Datenschutzerklärung</a>.</div>
+            </form>
+        </div>
+    </div>
+</section>
+{{< /html>}}
