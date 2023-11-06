@@ -24,9 +24,14 @@ disableKinds = ['taxonomy', 'term']
   url = '/'
   weight = 1
 [[menu.main]]
-  identifier = "aktionen"
   name = 'Aktionen'
-  url = '/aktionen/'
+  identifier = "aktionen"
+[[menu.main]]
+    identifier = "aktionen-uebersicht"
+    name = "Übersicht"
+    url = "/aktionen/"
+    parent = "aktionen"
+    weight = 1
 [[menu.main]]
     identifier = "martinszug"
     name = "Martinszug"

@@ -1,6 +1,6 @@
 <div class="mx-auto max-w-fit">
 <ol class="relative border-l-2 border-dashed border-primary-500">
-    {{ range $aktuell := .Site.Data.aktionen.aktuell }}
+    {{ range $aktuell := sort .Site.Data.aktionen.aktuell "start_date" }}
     <li class="mb-10 ml-6 list-none">
         <span
             class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
