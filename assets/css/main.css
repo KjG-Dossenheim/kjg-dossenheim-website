@@ -36,26 +36,11 @@
     }
 
     @font-face {
-        font-family: 'SeccaKjG-Rg';
+        font-family: 'SeccaKjG';
         src: font-url('fonts/SeccaKjG-Rg.ttf');
-        font-style: normal;
-    }
-
-    @font-face {
-        font-family: 'SeccaKjG-It';
         src: font-url('fonts/SeccaKjG-It.ttf');
-        font-style: italic;
-    }
-
-    @font-face {
-        font-family: 'SeccaKjG-Bd';
         src: font-url('fonts/SeccaKjG-Bd.ttf');
-    }
-
-    @font-face {
-        font-family: 'SeccaKjG-Bd-It';
         src: font-url('fonts/SeccaKjG-Bd-It.ttf');
-        font-style: italic;
     }
 }
 
