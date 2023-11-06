@@ -101,7 +101,7 @@ module.exports = {
         },
       },
       fontFamily :{ 
-        pop: ["SeccaKjG-Rg","sans-serif"], 
+        pop: ["SeccaKjG","Helvetica"], 
       }
     },
   },
