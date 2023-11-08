@@ -3,16 +3,16 @@
     {{ range $aktuell := sort .Site.Data.aktionen.aktuell "start_date" }}
     <li class="mb-10 ml-6 list-none">
         <span
-            class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
-            <svg class="w-2.5 h-2.5 text-primary-800 dark:text-primary-300" aria-hidden="true"
+            class="absolute flex items-center justify-center w-6 h-6 bg-primary-500 rounded-full -left-3 ring-8 ring-white">
+            <svg class="w-2.5 h-2.5 text-white" aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path
                     d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
             </svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ $aktuell.name }}
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-black">{{ $aktuell.name }}
             <time
-                class="bg-primary-100 text-primary-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-primary-900 dark:text-primary-300 ml-3">
+                class="bg-primary-500 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full ml-3">
                 {{ if and $aktuell.start_date $aktuell.end_date }}
                 {{ $aktuell.start_date | time.Format ":date_short" }} bis {{ $aktuell.end_date | time.Format ":date_short" }}
                 {{ else if $aktuell.start_date }}
@@ -23,7 +23,7 @@
         {{/*  <div class="flex mb-1 text-lg flex-col align-items-center sm:flex-row font-semibold text-gray-900">
             <h6 class="text-gray-900">{{ $aktuell.name }}</h6>
             <time
-                class="bg-primary-100 text-primary-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full ml-0 sm:ml-3 mb-3 max-w-fit">
+                class="bg-primary-500 text-primary-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full ml-0 sm:ml-3 mb-3 max-w-fit">
                 {{ if and $aktuell.start_date $aktuell.end_date }}
                 {{ $aktuell.start_date | time.Format ":date_short" }} bis {{ $aktuell.end_date | time.Format ":date_short" }}
                 {{ else if $aktuell.start_date }}
@@ -51,8 +51,8 @@
     {{ range $vorschau := .Site.Data.aktionen.vorschau.aktionen }}
     <li class="mb-10 ml-6 list-none">
         <span
-            class="absolute flex items-center justify-center w-6 h-6 bg-primary-100 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
-            <svg class="w-2.5 h-2.5 text-primary-800 dark:text-primary-300" aria-hidden="true"
+            class="absolute flex items-center justify-center w-6 h-6 bg-primary-500 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            <svg class="w-2.5 h-2.5 text-white dark:text-primary-300" aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path
                     d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
@@ -60,7 +60,7 @@
         </span>
         <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ $vorschau.name }}
             <time
-                class="bg-primary-100 text-primary-800 text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-primary-900 dark:text-primary-300 ml-3">
+                class="bg-primary-500 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-primary-900 dark:text-primary-300 ml-3">
                 {{ if $vorschau.start_date }}
                 {{ $vorschau.start_date | time.Format ":date_long" }}
                 {{ end }}
