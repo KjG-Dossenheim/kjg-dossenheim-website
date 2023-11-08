@@ -7,6 +7,11 @@ aktuell:
     start_date: 2024-01-13
     description:
     link: /tannenbaumaktion
+  - name: 72h-Aktion
+    start_date: 2024-04-18
+    end_date: 2024-04-21
+    description:
+    link: /72stunden
   - name: Sommerfreizeit
     start_date: 2024-08-31
     end_date: 2024-09-07
@@ -15,7 +20,7 @@ aktuell:
   - name: Martinszug
     start_date: 2024-11-09
     description:
-    link: /martinsumzug
+    link: /martinszug
   - name: Adventsmarkt
     start_date: 2024-12-01
     end_date: 2024-12-02
@@ -26,6 +31,5 @@ vorschau:
   aktionen:
     - name: Friedensgebet
       start_date: 2025-01-01
-      date: 12. Januar 2023
       description:
       link:

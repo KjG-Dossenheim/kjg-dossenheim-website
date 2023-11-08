@@ -1,0 +1,14 @@
+<section>
+    <div class="py-6 mx-auto max-w-screen-xl sm:py-10">
+        <div class="mx-auto max-w-screen-sm text-center">
+            {{ with .Params.heading }}
+                <h3 class="mb-4 tracking-tight font-extrabold leading-tight">{{ . }}</h3>
+            {{ end }}
+            {{ if .Params.url }}
+                <a href="{{ . }}" class="text-white font-bold bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 rounded-full px-5 py-2.5 mb-2 focus:outline-none">
+                    {{ .Get "text" }}
+                </a>
+            {{ end }}
+        </div>
+    </div>
+</section>

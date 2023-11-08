@@ -2,7 +2,10 @@ baseURL = 'https://kjg-dossenheim.org'
 languageCode = 'de-DE'
 defaultContentLanguage = 'de'
 title = 'KjG Dossenheim'
-copyright = 'KjG Dossenheim'
+
+facebook = "kjg.dossenheim"
+twitter = "kjg.dossenheim"
+
 enableRobotsTXT = true
 pluralizelisttitles = false
 disableKinds = ['taxonomy', 'term']
@@ -26,12 +29,6 @@ disableKinds = ['taxonomy', 'term']
 [[menu.main]]
   name = 'Aktionen'
   identifier = "aktionen"
-[[menu.main]]
-    identifier = "aktionen-uebersicht"
-    name = "Übersicht"
-    url = "/aktionen/"
-    parent = "aktionen"
-    weight = 1
 [[menu.main]]
     identifier = "martinszug"
     name = "Martinszug"

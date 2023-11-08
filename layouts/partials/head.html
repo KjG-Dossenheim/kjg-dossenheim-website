@@ -35,4 +35,6 @@
     {{- else -}}
     <link rel="canonical" href="{{ .Permalink }}" />
     {{- end }}
+    <!-- Structured Data -->
+    {{ partial "schema.html" . }}
 </head>
