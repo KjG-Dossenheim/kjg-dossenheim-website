@@ -3,9 +3,6 @@ languageCode = 'de-DE'
 defaultContentLanguage = 'de'
 title = 'KjG Dossenheim'
 
-facebook = "kjg.dossenheim"
-twitter = "kjg.dossenheim"
-
 enableRobotsTXT = true
 pluralizelisttitles = false
 disableKinds = ['taxonomy', 'term']
@@ -19,7 +16,9 @@ disableKinds = ['taxonomy', 'term']
 
 
 [params]
-  Description = "Die KjG Dossenheim vertritt die Interessen der Kinder und Jugendlichen in der katholischen Gemeinden der Stadt Dossenheim"
+  description = "Die KjG Dossenheim vertritt die Interessen der Kinder und Jugendlichen in der katholischen Gemeinden der Stadt Dossenheim"
+  facebook = "kjg.dossenheim"
+  instagram = "kjg.dossenheim"
 
 [menu]
 [[menu.main]]
