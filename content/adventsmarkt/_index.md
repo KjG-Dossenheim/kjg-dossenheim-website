@@ -1,5 +1,5 @@
 ---
-title: "Adventsmarkt der KjG Dossenheim"
+title: "Adventsmarkt"
 
 ---
 {{< faq >}}

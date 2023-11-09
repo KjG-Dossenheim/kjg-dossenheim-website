@@ -1,5 +1,5 @@
 ---
-title: "72-Stunden-Aktion der KjG Dossenheim"
+title: "72-Stunden-Aktion"
 
 ---
 Die 72-Stunden-Aktion ist eine Sozialaktion des Bundes der Deutschen Katholischen Jugend (BDKJ) und seiner Verbände.  
@@ -9,3 +9,5 @@ Die Projekte greifen politische und gesellschaftliche Themen auf, sind lebenswel
 An der vergangenen 72-Stunden-Aktion im Mai 2019 - der zweiten bundesweiten - haben über 160.000 Mitwirkende in 3.400 Gruppen teilgenommen!  
 Und nicht nur überall in Deutschland, sondern auch in 45 internationale Gruppen.  
 2024 findet die dritte Bundesweite 72-Stunden-Aktion statt.
+
+{{< hero-button heading="Weiter Fragen?" url="https://72stunden.de" text="Webseite der 72h-Aktion" >}}

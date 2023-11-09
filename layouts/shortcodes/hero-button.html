@@ -4,11 +4,9 @@
             {{ with .Params.heading }}
                 <h3 class="mb-4 tracking-tight font-extrabold leading-tight">{{ . }}</h3>
             {{ end }}
-            {{ if .Params.url }}
-                <a href="{{ . }}" class="text-white font-bold bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 rounded-full px-5 py-2.5 mb-2 focus:outline-none">
+                <a href="{{ .Get "url" }}" class="text-white font-bold bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 rounded-full px-5 py-2.5 mb-2 focus:outline-none">
                     {{ .Get "text" }}
                 </a>
-            {{ end }}
         </div>
     </div>
 </section>

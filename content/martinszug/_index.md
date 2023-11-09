@@ -1,5 +1,5 @@
 ---
-title: "Martinszug der KjG Dossenheim"
+title: "Martinszug"
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Tannenbaumaktion der KjG Dossenheim"
+title: "Tannenbaumaktion"
 
 ---
 {{< faq title="Wo kann ich die Gutscheine kaufen?" >}}

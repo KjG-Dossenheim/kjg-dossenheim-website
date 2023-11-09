@@ -1,5 +1,5 @@
 ---
-title: "Sommerfreizeit der KjG Dossenheim"
+title: "Sommerfreizeit"
 summary: "Sommerfreizeit der KjG Dossenheim: Ein unvergessliches Abenteuer!"
 
 ---
