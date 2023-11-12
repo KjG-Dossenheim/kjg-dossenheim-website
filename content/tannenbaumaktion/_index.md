@@ -3,7 +3,7 @@ title: "Tannenbaumaktion"
 
 ---
 {{< faq title="Wann werden die Bäume abgeholt?" >}}
-Am Samstag, den 14.01.2023 werden wir ab 9:00 Uhr unterwegs sein und die Weihnachtsbäume abholen.
+Am Samstag, den 13.01.2023 werden wir ab 9:00 Uhr unterwegs sein und die Weihnachtsbäume abholen.
 {{< / faq >}}
 
 {{< faq title="Wie muss ich den Baum vorbereiten?" >}}

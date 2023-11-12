@@ -1,23 +1,3 @@
----
-title: Datenschutzerklärung
-
----
-{{< html>}}
-<section class="text-center">
-    <div class="my-6">
-        <button type="button"
-            class="text-white bg-primary-500 hover:bg-primary-600 focus:outline-none focus:ring-4 focus:ring-primary-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-500 dark:focus:ring-primary-600"><a
-                href="/datenschutz/sommerfreizeit/" class="text-white">Sommerfreizeit</a></button>
-        <button type="button"
-            class="text-white bg-primary-500 hover:bg-primary-600 focus:outline-none focus:ring-4 focus:ring-primary-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-500 dark:focus:ring-primary-600"><a
-                href="/datenschutz/pretix/" class="text-white">Pretix</a></button>
-        <button type="button"
-            class="text-white bg-primary-500 hover:bg-primary-600 focus:outline-none focus:ring-4 focus:ring-primary-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-primary-600 dark:hover:bg-primary-500 dark:focus:ring-primary-600"><a
-                href="/datenschutz/newsletter/" class="text-white">Newsletter</a></button>
-    </div>
-</section>
-{{< /html>}}
-
 ## Webseite
 Die Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies, soweit möglich, stets auf freiwilliger Basis. Diese Daten werden ohne Ihre ausdrückliche Zustimmung nicht an Dritte weitergegeben.
 
@@ -36,3 +16,17 @@ Als Grundlage der Datenverarbeitung bei Empfängern mit Sitz in Drittstaaten (au
 Netlify hält einen Vertrag über die Auftragsverarbeitung gemäß Art. 28 DSGVO bereit, der als datenschutzrechtliche Grundlage für unsere Kundenbeziehung zu Netlify fungiert. Dieser verweist inhaltlich auf die EU-Standardvertragsklauseln. Sie finden ihn hier: [https://www.netlify.com/pdf/netlify-dpa.pdf](https://www.netlify.com/pdf/netlify-dpa.pdf)  
    
 Mehr über die Daten, die durch die Verwendung von Netlify verarbeitet werden, erfahren Sie in der Privacy Policy auf [https://www.netlify.com/privacy/](https://www.netlify.com/privacy/?tid=331680956394).
+
+#### hCaptcha
+
+Wir nutzen den hCaptcha-Sicherheitsdienst (nachfolgend "hCaptcha") auf unserer Website. Dieser Service wird von Intuition Machines, Inc., einer Delaware US Corporation ("IMI") bereitgestellt.
+hCaptcha wird verwendet, um zu überprüfen, ob Nutzeraktionen auf unserem Online-Service (z.B. Anmelde- oder Kontaktformular) unsere Sicherheitsanforderungen erfüllen.
+Um dies zu tun, analysiert hCaptcha das Verhalten der Website oder mobile App Besucher basierend auf verschiedenen Eigenschaften.
+Diese Analyse beginnt automatisch, sobald der Website- oder App-Besucher einen Teil der Website oder App mit hCaptcha aktiviert eingibt.
+Für die Analyse wertet hCaptcha verschiedene Informationen aus (z.B. IP-Adresse, wie lange der Besucher auf der Website oder App oder Mausbewegungen des Nutzers gewesen ist).
+Die während der Analyse erhobenen Daten werden an das IMI weitergeleitet.
+hCaptcha-Analyse im "unsichtbaren Modus" kann vollständig im Hintergrund erfolgen.
+Webseiten- oder App-Besucher werden nicht darauf hingewiesen, dass eine solche Analyse stattfindet, wenn der Nutzer keine Herausforderung zeigt.
+Die Datenverarbeitung basiert auf Art. 6 Abs. 1 lit. b DSGVO: Die Verarbeitung personenbezogener Daten ist für die Erfüllung eines Vertrags, dem der Website-Besucher Vertragspartei ist (z.B. die Website-Bedingungen) erforderlich oder um auf Antrag des Website-Besuchers vor Vertragsabschluss Schritte zu unternehmen.
+Unser Online-Service (einschließlich unserer Website, mobilen Apps und anderen Apps oder anderen von uns angebotenen Zugriffsformen) muss sicherstellen, dass es mit einem Menschen, nicht einem Bot interagiert und dass Aktivitäten des Nutzers nicht mit Betrug oder Missbrauch zusammenhängen. Darüber hinaus kann die Verarbeitung auch auf Art. 6 Abs. 1 lit. f DSGVO beruhen: Unser Online-Service hat ein berechtigtes Interesse daran, den Service vor missbräuchlichen automatisierten Raupen, Spam und anderen Missbrauchsformen zu schützen, die unseren Service oder anderen Nutzern unserer Dienstleistung schaden können.
+IMI fungiert als "Datenverarbeiter", der im Auftrag seiner Kunden im Sinne der DSGVO und eines "Dienstleisters" im Sinne des California Consumer Privacy Act (CCPA) handelt. Weitere Informationen zu den Datenschutzbestimmungen und Nutzungsbedingungen von hCaptcha finden Sie unter https://www.hcaptcha.com/privacy und https://www.hcaptcha.com/terms
