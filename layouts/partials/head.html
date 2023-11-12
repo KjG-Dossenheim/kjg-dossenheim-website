@@ -1,7 +1,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}Something hardcoded{{ end }}">
+    <meta name="description" content="{{ if .Summary }}{{ .Summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}Something hardcoded{{ end }}">
     <title>
         {{- if .IsHome -}}
         {{ .Site.Title }}
