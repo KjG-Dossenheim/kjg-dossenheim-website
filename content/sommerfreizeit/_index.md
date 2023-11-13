@@ -1,7 +1,5 @@
 ---
 title: "Sommerfreizeit"
-summary: "Sommerfreizeit der KjG Dossenheim: Ein unvergessliches Abenteuer!"
-
 ---
 
 Die Sommerfreizeit der Katholischen jungen Gemeinde (KjG) Dossenheim ist ein aufregendes und unvergessliches Ereignis, das Jugendliche aus der Gemeinde und Umgebung zusammenbringt. Diese einzigartige Freizeit bietet den Teilnehmern die Möglichkeit, ihre Sommerferien mit spannenden Aktivitäten, neuen Freundschaften und unvergesslichen Erlebnissen zu füllen.   

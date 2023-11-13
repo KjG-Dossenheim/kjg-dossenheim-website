@@ -1,6 +1,5 @@
 ---
 title: "Letzten Informationen"
-summary: Alle wichtigen Informationen für die Freizeit
 ---
 
 {{< faq title="Abfahrt" >}}

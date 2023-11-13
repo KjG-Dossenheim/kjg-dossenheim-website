@@ -1,6 +1,5 @@
 ---
 title: Sommerfreizeit 2024
-summary: Informationen zur Sommerfreizeit!
 ---
 <!-- {{< html>}}
 <section class=" text-gray-800 text-center">
