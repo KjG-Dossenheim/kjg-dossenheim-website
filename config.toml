@@ -19,6 +19,7 @@ disableKinds = ['taxonomy', 'term']
   description = "Die KjG Dossenheim vertritt die Interessen der Kinder und Jugendlichen in der katholischen Gemeinden der Stadt Dossenheim"
   facebook = "kjg.dossenheim"
   instagram = "kjg.dossenheim"
+  images = ['/images/opengraph.svg']
 
 [menu]
 [[menu.main]]
