@@ -20,6 +20,7 @@ disableKinds = ['taxonomy', 'term']
   facebook = "kjg.dossenheim"
   instagram = "kjg.dossenheim"
   images = ['/images/opengraph.svg']
+  title = "KjG Dossenheim"
 
 [menu]
 [[menu.main]]
