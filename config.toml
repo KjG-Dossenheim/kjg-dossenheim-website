@@ -2,18 +2,15 @@ baseURL = 'https://kjg-dossenheim.org'
 languageCode = 'de-DE'
 defaultContentLanguage = 'de'
 title = 'KjG Dossenheim'
-
 enableRobotsTXT = true
 pluralizelisttitles = false
 disableKinds = ['taxonomy', 'term']
-
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       hardWraps = true
       unsafe = true
-
 
 [params]
   description = "Die KjG Dossenheim vertritt die Interessen der Kinder und Jugendlichen in der katholischen Gemeinden der Stadt Dossenheim"
@@ -61,28 +58,3 @@ disableKinds = ['taxonomy', 'term']
  [[menu.main]]
   name = 'Kontakt'
   url = '/kontakt/'
-
-
-
-[privacy]
-  [privacy.disqus]
-    disable = false
-  [privacy.googleAnalytics]
-    anonymizeIP = false
-    disable = false
-    respectDoNotTrack = false
-    useSessionStorage = false
-  [privacy.instagram]
-    disable = false
-    simple = false
-  [privacy.twitter]
-    disable = false
-    enableDNT = false
-    simple = false
-  [privacy.vimeo]
-    disable = false
-    enableDNT = false
-    simple = false
-  [privacy.youtube]
-    disable = false
-    privacyEnhanced = false
