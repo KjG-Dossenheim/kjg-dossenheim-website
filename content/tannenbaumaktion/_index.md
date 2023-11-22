@@ -16,7 +16,7 @@ Damit wir Ihren Tannenbaum mitnehmen, versehen Sie diesen bitte mit einem unsere
 * Schreibwaren Faludy, Bahnhofsplatz 1
 * Löwenzahn – Der kleine Blumenladen, Neckarstrasse 26
 * Fam. Heiner Heller, Theodor-Heuss-Str. 35
-* Kath. Pfarrbüro Dossenheim, Schlüsselweg 5 
+* Kath. Pfarrbüro Dossenheim, Schlüsselweg 5
 {{< / faq >}}
 
 {{< faq title="Wo muss ich den Baum platzieren?" >}}
@@ -30,7 +30,6 @@ Der Erlös dieser Aktion ist für die Missionsstation von Schwester Damiane / He
 {{< faq title="Mein Baum wurde nicht abgeholt, was soll ich tun?" >}}
 Sollten wir deinen Baum beim Abholen vergessen haben melde dich einfach bei uns;
 * per E-Mail an: [info@kjg-dossenheim.org](mailto:info@kjg-dossenheim.org)
-* per Telefon: [0721 61906054](tel:072161906054)
 * per WhatsApp: [0721 61906054](https://wa.me/4972161906054)
 * per Instagram: [@kjg.dossenheim](https://www.instagram.com/kjg.dossenheim/)
 * per Facebook: [kjg.dossenheim](https://www.facebook.com/kjg.dossenheim/)
