@@ -30,7 +30,6 @@ Der Erlös dieser Aktion ist für die Missionsstation von Schwester Damiane / He
 {{< faq title="Mein Baum wurde nicht abgeholt, was soll ich tun?" >}}
 Sollten wir deinen Baum beim Abholen vergessen haben melde dich einfach bei uns;
 * per E-Mail an: [info@kjg-dossenheim.org](mailto:info@kjg-dossenheim.org)
-* per WhatsApp: [0721 61906054](https://wa.me/4972161906054)
 * per Instagram: [@kjg.dossenheim](https://www.instagram.com/kjg.dossenheim/)
 * per Facebook: [kjg.dossenheim](https://www.facebook.com/kjg.dossenheim/)
 {{< / faq >}}
