@@ -11,7 +11,7 @@ Damit wir Ihren Tannenbaum mitnehmen, versehen Sie diesen bitte mit einem unsere
 {{< / faq >}}
 
 {{< faq title="Wo kann ich die Gutscheine kaufen?" >}}
-Ab der 49. Kalenderwoche (4. – 10.12.)
+**Ab der 49. Kalenderwoche (4. – 10.12.)**
 * Bäckerei Sommer, Heidelberger Str. 15
 * Buchhandlung Worring, Hauptstraße 16
 * Schreibwaren Faludy, Bahnhofsplatz 1
