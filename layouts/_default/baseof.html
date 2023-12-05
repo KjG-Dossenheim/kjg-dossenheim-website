@@ -3,7 +3,7 @@
 {{ partial "head.html" . }}
 <body class="font-pop">
     {{ partial "nav.html" . }}
-    <main class="relative min-h-screen pt-10">
+    <main class="relative min-h-screen pt-10 bg-white dark:bg-gray-900">
         {{- block "main" . }}{{- end }}
     </main>
     {{- partial "footer.html" . -}}
