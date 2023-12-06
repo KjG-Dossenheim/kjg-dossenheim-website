@@ -1,0 +1,15 @@
+informationen:
+  alter: 3. Klasse bis 14 Jahre
+  start_datum: 2024-09-01
+  end_datum: 2024-09-07
+  pretix_url: https://pretix.kjg-dossenheim.org/kjg-dossenheim/freizeit-2024/
+unterkunft:
+  name: Otto-Riethmüller-Haus
+  subheading: Das Otto-Riethmüller-Haus wird unsere Unterkunft sein.
+  beschreibung: Während unseres Aufenthalts in der Pfalz werden im Otto-Riethmüller-Haus in Weidenthal wohnen. Es bietet Mehrbettzimmer und ein eigenes Bad pro Zimmer
+  unterkunft_url: http://www.orh.de
+  bild: http://www.orh.de/images/orh_2016%20(6).jpg?crc=3916255880
+preis:
+  ermäßigt: 180
+  kalkuliert: 210
+  solidar: 220
