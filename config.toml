@@ -49,7 +49,7 @@ disableKinds = ['taxonomy', 'term']
     parent = "aktionen"
 [[menu.main]]
     identifier = "72stunden"
-    name = "72-Stunden-Aktion"
+    name = "72h-Aktion"
     url = "/72stunden/"
     parent = "aktionen"
 [[menu.main]]
