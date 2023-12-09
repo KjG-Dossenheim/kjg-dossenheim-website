@@ -1,0 +1,47 @@
+vorstand:
+  - first_name: Anton 
+    last_name: Lefken
+    since: 2016
+    contact:
+      email: anton.lefken@kjg-dossenheim.org
+  - first_name: Luis 
+    last_name: Lefken
+    since: 2014
+    contact:
+      email: luis.lefken@kjg-dossenheim.org
+teamer:
+  - first_name: Ben 
+    last_name: Wallner
+    since: 2016
+    contact:
+      email: ben.wallner@kjg-dossenheim.org
+  - first_name: Andreas 
+    last_name: Müller
+    since: 2016
+  - first_name: Fabienne 
+    last_name: Pfeifer
+    since: 2020
+  - first_name: Lina 
+    last_name: Zeller
+    since: 2021
+  - first_name: Lotte 
+    last_name: Neustadt
+    since: 2021
+  - first_name: Elena 
+    last_name: Neumann
+    since: 2021
+  - first_name: Florian
+    last_name: Wiedmaier
+  - first_name: Sebastian
+    last_name: Gutfleisch
+  - first_name: Johannes
+    last_name: Gutfleisch
+  - first_name: Matilda
+    last_name: Pfeifer
+    since: 2023
+  - first_name: Marc
+    last_name: Schneikert
+    since: 2023
+  - first_name: David
+    last_name: Haynes
+    since: 2023
