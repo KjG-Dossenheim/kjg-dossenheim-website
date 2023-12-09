@@ -1,0 +1,108 @@
+<section>
+    <div class="px-4 mx-auto max-w-screen-xl">
+        <h3 class="py-4">Unser Vorstand</h3>
+        <div class="grid gap-2 xl:gap-6 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
+            {{ range $vorstand := sort .Site.Data.team.vorstand "first_name"}}
+            <div class="block p-4 border border-gray-200 rounded-b-lg rounded-t-full shadow bg-gray-50 dark:bg-gray-800">
+                {{ if $vorstand.image }}
+                <img class="mx-auto mb-4 w-full h-auto rounded-full"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                    alt="Profilbild {{ $vorstand.first_name }} {{ $vorstand.last_name }}">
+                {{ else}}
+                <svg class="mx-auto mb-4 w-full h-auto rounded-full text-primary-500" aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                        d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
+                </svg>
+                {{ end }}
+                <div class="flex flex-col">
+                    <div class="mb-1">
+                        <h4 class="text-center">
+                            <p>
+                                {{ $vorstand.first_name }}
+                            </p>
+                            <p>
+                                {{ $vorstand.last_name }}
+                            </p>
+                        </h4>
+                    </div>
+                    <div class="text-left mx-auto">
+                        {{ if $vorstand.since }}
+                        <p>Mitglied seit: {{ $vorstand.since }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+                <ul class="flex mt-4 space-x-4">
+                    {{ $contact := $vorstand.contact }}
+                    {{ if $vorstand.contact.email }}
+                    <li class="list-none grow">
+                        <button class="bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full">
+                            <a href="mailto:{{ $vorstand.contact.email }}" class="text-white">E-Mail</a>
+                        </button>
+                    </li>
+                    {{ end }}
+                    {{ if $vorstand.contact.phone }}
+                    <li class="list-none grow">
+                        <button class="bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-2 rounded-full border-0 w-full">
+                            <a href="tel:{{ $vorstand.contact.phone }}" class="text-white ">Telefon</a>
+                        </button>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </div>
+        <h3 class="py-4">Unsere Teamer</h3>
+        <div class="grid gap-2 xl:gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
+            {{ range $teamer := sort .Site.Data.team.teamer "first_name" }}
+            <div class="block p-4 border border-gray-200 rounded-b-lg rounded-t-full shadow bg-gray-50 dark:bg-gray-800 min-h-fit">
+                {{ if $teamer.image }}
+                <img class="mx-auto mb-4 w-full h-auto rounded-full"
+                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                    alt="Profilbild {{ $teamer.first_name }} {{ $teamer.last_name }}">
+                {{ else}}
+                <svg class="mx-auto mb-4 w-full h-auto rounded-full text-primary-500" aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                        d="M10 0a10 10 0 1 0 10 10A10.011 10.011 0 0 0 10 0Zm0 5a3 3 0 1 1 0 6 3 3 0 0 1 0-6Zm0 13a8.949 8.949 0 0 1-4.951-1.488A3.987 3.987 0 0 1 9 13h2a3.987 3.987 0 0 1 3.951 3.512A8.949 8.949 0 0 1 10 18Z" />
+                </svg>
+                {{ end }}
+                <div class="flex flex-col">
+                    <div class="mb-1">
+                        <h4 class="text-center">
+                            <p>
+                                {{ $teamer.first_name }}
+                            </p>
+                            <p>
+                                {{ $teamer.last_name }}
+                            </p>
+                        </h4>
+                    </div>
+                    <div class="text-left mx-auto">
+                        {{ if $teamer.since }}
+                        <p>Mitglied seit: {{ $teamer.since }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+                <ul class="flex mt-4 space-x-4">
+                    {{ $contact := $teamer.contact }}
+                    {{ if $teamer.contact.email }}
+                    <li class="list-none grow">
+                        <button class="bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full">
+                            <a href="mailto:{{ $teamer.contact.email }}" class="text-white">E-Mail</a>
+                        </button>
+                    </li>
+                    {{ end }}
+                    {{ if $teamer.contact.phone }}
+                    <li class="list-none grow">
+                        <button class="bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-2 rounded-full border-0 w-full">
+                            <a href="tel:{{ $teamer.contact.phone }}" class="text-white ">Telefon</a>
+                        </button>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
