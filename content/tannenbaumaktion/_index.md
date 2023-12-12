@@ -15,7 +15,7 @@ Damit wir Ihren Tannenbaum mitnehmen, versehen Sie diesen bitte mit einem unsere
 * Bäckerei Sommer, Heidelberger Str. 15
 * Buchhandlung Worring, Hauptstraße 16
 * Schreibwaren Faludy, Bahnhofsplatz 1
-* Löwenzahn – Der kleine Blumenladen, Neckarstrasse 26
+* Löwenzahn – Der Blumenladen, Neckarstrasse 26
 * Fam. Heiner Heller, Theodor-Heuss-Str. 35
 * Kath. Pfarrbüro Dossenheim, Schlüsselweg 5
 {{< / faq >}}
