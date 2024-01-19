@@ -10,6 +10,6 @@ unterkunft:
   unterkunft_url: http://www.orh.de
   bild: http://www.orh.de/images/orh_2016%20(6).jpg?crc=3916255880
 preis:
-  ermäßigt: 180
-  kalkuliert: 210
-  solidar: 220
+  ermäßigt: 190
+  kalkuliert: 220
+  solidar: 250
