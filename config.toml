@@ -55,6 +55,9 @@ disableKinds = ['taxonomy', 'term']
 [[menu.main]]
   name = 'Über uns'
   url = '/about/'
- [[menu.main]]
+[[menu.main]]
   name = 'Kontakt'
   url = '/kontakt/'
+[[menu.main]]
+  name = 'Team'
+  url = '/team/'
