@@ -1,18 +1,18 @@
 <div class="mx-auto max-w-fit">
-<ol class="relative border-l-2 border-dashed border-primary-500">
+<ol class="relative border-l-2 border-dotted border-primary-500 dark:border-secondary-500">
     {{ range $aktuell := sort .Site.Data.aktionen.aktuell "start_date" }}
     <li class="mb-10 ml-6 list-none">
         <span
-            class="absolute flex items-center justify-center w-6 h-6 bg-primary-500 rounded-full -left-3 ring-8 ring-white">
-            <svg class="w-2.5 h-2.5 text-white" aria-hidden="true"
+            class="absolute flex items-center justify-center w-6 h-6 bg-primary-500 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-secondary-500">
+            <svg class="w-2.5 h-2.5 text-white dark:text-primary-300" aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path
                     d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
             </svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-black">{{ $aktuell.name }}
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-primary-500">{{ $aktuell.name }}
             <time
-                class="bg-primary-500 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full ml-3">
+                class="bg-primary-500 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-secondary-500 dark:text-primary-300 ml-3">
                 {{ if and $aktuell.start_date $aktuell.end_date }}
                 {{ $aktuell.start_date | time.Format ":date_short" }} bis {{ $aktuell.end_date | time.Format ":date_short" }}
                 {{ else if $aktuell.start_date }}
@@ -51,16 +51,16 @@
     {{ range $vorschau := .Site.Data.aktionen.vorschau.aktionen }}
     <li class="mb-10 ml-6 list-none">
         <span
-            class="absolute flex items-center justify-center w-6 h-6 bg-primary-500 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-primary-900">
+            class="absolute flex items-center justify-center w-6 h-6 bg-primary-500 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-secondary-500">
             <svg class="w-2.5 h-2.5 text-white dark:text-primary-300" aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
                 <path
                     d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
             </svg>
         </span>
-        <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">{{ $vorschau.name }}
+        <h3 class="flex items-center mb-1 text-lg font-semibold text-primary-500">{{ $vorschau.name }}
             <time
-                class="bg-primary-500 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-primary-900 dark:text-primary-300 ml-3">
+                class="bg-primary-500 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-secondary-500 dark:text-primary-300 ml-3">
                 {{ if $vorschau.start_date }}
                 {{ $vorschau.start_date | time.Format ":date_long" }}
                 {{ end }}
@@ -74,7 +74,7 @@
         <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">{{ $vorschau.description }}</p>
         {{ end }}
         {{ if $vorschau.link }}
-        <a href="/tannenbaumaktion"
+        <a href="{{ $vorschau.link }}"
             class="inline-flex items-center px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-full hover:bg-gray-100 hover:text-primary-700 focus:z-10 focus:ring-4 focus:outline-none focus:ring-gray-200 focus:text-primary-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-gray-700">Mehr
             erfahren <svg class="w-3 h-3 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
                 viewBox="0 0 14 10">
