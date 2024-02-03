@@ -16,7 +16,7 @@
                                 </div>
                                 <input
                                     class="block p-3 pl-10 w-full text-gray-900 bg-gray-50 rounded-lg border border-gray-300 sm:rounded-none sm:rounded-l-lg focus:ring-primary-500 focus:border-primary-500"
-                                    type="email" name="email" id="email" required placeholder="E-Mail" />
+                                    type="email" name="email" id="email" required placeholder="E-Mail" autocomplete="email"/>
                             </div>
                             <div class="relative ">
                                 <label for="email" class="hidden mb-2 font-medium ">Name</label>
@@ -29,7 +29,7 @@
                                 </div>
                                 <input
                                     class="block p-3 pl-10 w-full sm:w-min text-gray-900 bg-gray-50 border border-gray-300  focus:ring-primary-500 focus:border-primary-500 rounded-lg sm:rounded-none"
-                                    type="text" name="name" id="name" placeholder="Name (optional)" />
+                                    type="text" name="name" id="name" placeholder="Name (optional)" autocomplete="name"/>
                             </div>
                     <div>
                         <input type="hidden" name="l" checked value="{{ .Get "UUID" }}" />

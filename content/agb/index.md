@@ -13,7 +13,7 @@ Der Vertrag zwischen dem Teilnehmer und der KjG Dossenheim kommt durch die schri
 ###### 2.1 
 Die Sommerfreizeit der KjG Dossenheim richtet sich an Kinder und Jugendliche im Alter von 9 bis 14 Jahre.
 ###### 2.2 
-Die Teilnahme an der Sommerfreizeit setzt eine schriftliche Einverständniserklärung der Eltern bzw. gesetzlichen Vertreter voraus.
+Die Teilnahme an der Sommerfreizeit setzt eine schriftliche oder elektronische Einverständniserklärung der Eltern bzw. gesetzlichen Vertreter voraus.
 ###### 2.3 
 Der Teilnehmer erklärt sich bereit, die während der Sommerfreizeit geltenden Regeln und Anweisungen der Betreuer und des Veranstaltungsortes zu befolgen.
 
@@ -59,7 +59,7 @@ Bei einem Rücktritt gelten folgende Stornierungsgebühren:
 *	vom 14.-7. Tag vor Reiseantritt 85 %
 *	ab 6 Tage vor Reiseantritt 90 %  
 jeweils pro Teilnehmer.  
-Berechnungsgrundlage ist der dem Teilnehmer in Rechnung gestellte Gesamtpreis.  
+Berechnungsgrundlage ist der dem Teilnehmer in Rechnung gestellte Gesamtpreis. 
 In jedem Fall wird mindestens eine Verwaltungsgebühr von 20 € einbehalten.
 ###### 5.3
 Die KjG Dossenheim behält sich vor, die Sommerfreizeit bei zu geringer Teilnehmerzahl oder aus anderen wichtigen Gründen abzusagen. In diesem Fall erfolgt eine volle Rückerstattung des Teilnahmebeitrags.
@@ -74,26 +74,6 @@ Die KjG Dossenheim haftet nicht für den Verlust, die Beschädigung oder den Die
 #### Versicherung
 ###### 7.1
 Die Teilnehmer sind verpflichtet, über eine ausreichende Unfallversicherung und gegebenenfalls eine Krankenversicherung zu verfügen, um eventuelle Kosten im Falle von Verletzungen oder Krankheiten abzudecken. Die KjG Dossenheim übernimmt keine Verantwortung für solche Kosten.
-
-#### Datenschutz
-###### 8.1
-Die KjG Dossenheim bewahrt personenbezogene Daten der Teilnehmer für einen angemessenen Zeitraum nach Abschluss der Sommerfreizeit auf.
-###### 8.2
-Die Verarbeitung dieser Daten erfolgt ausschließlich zu internen Zwecken der Freizeitorganisation, einschließlich statistischer Auswertungen und zur Verbesserung zukünftiger Veranstaltungen.
-###### 8.3
-Die KjG Dossenheim stellt sicher, dass alle personenbezogenen Daten gemäß den geltenden Datenschutzbestimmungen geschützt und vertraulich behandelt werden.
-###### 8.4
-Die KjG Dossenheim gibt personenbezogene Daten der Teilnehmer nicht ohne ausdrückliche Einwilligung an Dritte weiter
-
-#### Bildaufnahmen
-###### 9.1
-Während unserer Veranstaltung werden Fotos und Videos von Mitarbeitenden der KjG Dossenheim und Teilnehmenden gemacht, auf denen möglicherweise auch Ihr Kind zu sehen ist. Gelegentlich werden Fotos vom Veranstalter in Publikationen abgedruckt oder Fotos und kurze Videos im Internet verwendet. Wir wählen die Bilder und Videos sorgfältig und verantwortungsbewusst aus. Durch das Absenden des Anmeldeformulars geben Sie Ihre ausdrückliche, jederzeit widerrufliche, jedoch sonst unbefristete Zustimmung zur Speicherung und Verwendung von Bildern und Videos, auf denen Ihr Kind abgebildet ist. Eine Verwendung ohne Ihre Zustimmung ist außerdem in den gesetzlich geregelten Fällen zulässig. Ihnen ist bekannt, dass digitale Bilder und Videos aus dem Internet kopiert, anderweitig verwendet oder verändert werden können, ohne dass wir darauf Einfluss nehmen können.
-
-###### 9.2
-Sie können der Veröffentlichung jederzeit widersprechen. Im Falle eines Widerspruchs wird der Veranstalter das entsprechende Bild oder Video zeitnah aus dem von ihm verwalteten Bereich im Internet (Homepage des Veranstalters) entfernen. Es besteht jedoch keine Verpflichtung zur Entfernung aus Suchmaschinen, sozialen Medien, Bildportalen oder anderen digitalen Medien (z. B. Facebook, Twitter, Instagram, WhatsApp), sofern der Veranstalter dort die Veröffentlichung nicht selbst vorgenommen oder aktiv veranlasst hat. Sie verzichten ausdrücklich auf eine Vergütung für die Veröffentlichung eines Bildes oder einer Videosequenz. Der Veranstalter hat keinen Einfluss auf Fotos oder Videos, die von Teilnehmenden gemacht werden. Es besteht keine Verpflichtung, Verbote oder Vorschriften diesbezüglich auszusprechen oder Kontrollen durchzuführen.
-
-###### 9.3
-Falls Sie nicht möchten, dass Abbildungen Ihres Kindes für diese Zwecke verwendet werden, bitten wir den jeweiligen Teilnehmenden, dies zu Beginn der Freizeit dem Veranstalter oder den Organisatoren mitzuteilen, damit dies entsprechend berücksichtigt werden kann. Andernfalls gehen wir davon aus, dass der Teilnehmende mit der Verwendung geeigneter Bilder für diese Zwecke einverstanden ist.
 
 #### Änderungen der AGB
 Die KjG Dossenheim behält sich das Recht vor, diese AGB jederzeit zu ändern oder zu aktualisieren. Die Teilnehmer werden über etwaige Änderungen rechtzeitig informiert. Die Teilnahme an der Sommerfreizeit nach Mitteilung der geänderten AGB gilt als Zustimmung zu den aktualisierten Bedingungen.
