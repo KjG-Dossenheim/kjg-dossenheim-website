@@ -1,0 +1,12 @@
+<div class="grid grid-cols-2 md:grid-cols-3 gap-4 pointer-events-none">
+    {{ with .Page.Resources.Match "images/**/*" }}
+        {{ range . }}
+            <div>
+                {{ $img := (.Fill "600x400 webp") }}
+                <img class="h-auto max-w-full rounded-lg p-1" src="{{ $img.RelPermalink }}" alt="{{ $img.Title }}" loading="lazy">
+            </div>
+        {{ end }}
+    {{ else }}
+        <p>No images found</p>
+    {{ end }}
+</div>
