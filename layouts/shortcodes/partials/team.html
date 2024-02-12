@@ -3,7 +3,7 @@
         <h3 class="py-4">Unser Vorstand</h3>
         <div class="grid gap-2 xl:gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
             {{ range $vorstand := sort .Site.Data.team.vorstand "first_name"}}
-            <div class="block p-4 border border-gray-200 rounded-b-lg rounded-t-full shadow bg-gray-50 dark:bg-gray-800">
+            <div class="block p-4">
                 {{ if $vorstand.image }}
                 <img class="mx-auto mb-4 w-full h-auto rounded-full"
                     src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
@@ -55,7 +55,7 @@
         <h3 class="py-4">Unsere Teamer</h3>
         <div class="grid gap-2 xl:gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
             {{ range $teamer := sort .Site.Data.team.teamer "first_name" }}
-            <div class="block p-4 border border-gray-200 rounded-b-lg rounded-t-full shadow bg-gray-50 dark:bg-gray-800 min-h-fit">
+            <div class="block p-4">
                 {{ if $teamer.image }}
                 <img class="mx-auto mb-4 w-full h-auto rounded-full"
                     src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
