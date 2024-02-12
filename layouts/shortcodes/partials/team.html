@@ -36,16 +36,12 @@
                     {{ $contact := $vorstand.contact }}
                     {{ if $vorstand.contact.email }}
                     <li class="list-none grow">
-                        <button class="bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full">
-                            <a href="mailto:{{ $vorstand.contact.email }}" class="text-white">E-Mail</a>
-                        </button>
+                        <a href="mailto:{{ $vorstand.contact.email }}" class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">E-Mail</a>
                     </li>
                     {{ end }}
                     {{ if $vorstand.contact.phone }}
                     <li class="list-none grow">
-                        <button class="bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-2 rounded-full border-0 w-full">
-                            <a href="tel:{{ $vorstand.contact.phone }}" class="text-white ">Telefon</a>
-                        </button>
+                        <a href="mailto:{{ $vorstand.contact.phone }}" class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">Telefon</a>
                     </li>
                     {{ end }}
                 </ul>
@@ -88,16 +84,12 @@
                     {{ $contact := $teamer.contact }}
                     {{ if $teamer.contact.email }}
                     <li class="list-none grow">
-                        <button class="bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full">
-                            <a href="mailto:{{ $teamer.contact.email }}" class="text-white">E-Mail</a>
-                        </button>
+                        <a href="mailto:{{ $teamer.contact.email }}" class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">E-Mail</a>
                     </li>
                     {{ end }}
                     {{ if $teamer.contact.phone }}
                     <li class="list-none grow">
-                        <button class="bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-2 rounded-full border-0 w-full">
-                            <a href="tel:{{ $teamer.contact.phone }}" class="text-white ">Telefon</a>
-                        </button>
+                        <a href="mailto:{{ $teamer.contact.phone }}" class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">Telefon</a>
                     </li>
                     {{ end }}
                 </ul>
