@@ -5,8 +5,8 @@
             {{ range $vorstand := sort .Site.Data.team.vorstand "first_name"}}
             <div class="block p-4">
                 {{ if $vorstand.image }}
-                <img class="mx-auto mb-4 w-full h-auto rounded-full"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                <img class="mx-auto mb-4 w-full h-auto rounded-full" loading="lazy"
+                    src="{{ $vorstand.img }}"
                     alt="Profilbild {{ $vorstand.first_name }} {{ $vorstand.last_name }}">
                 {{ else}}
                 <svg class="mx-auto mb-4 w-full h-auto rounded-full text-primary-500" aria-hidden="true"
@@ -36,12 +36,14 @@
                     {{ $contact := $vorstand.contact }}
                     {{ if $vorstand.contact.email }}
                     <li>
-                        <a href="mailto:{{ $vorstand.contact.email }}" class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">E-Mail</a>
+                        <a href="mailto:{{ $vorstand.contact.email }}"
+                            class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">E-Mail</a>
                     </li>
                     {{ end }}
                     {{ if $vorstand.contact.phone }}
                     <li>
-                        <a href="mailto:{{ $vorstand.contact.phone }}" class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">Telefon</a>
+                        <a href="mailto:{{ $vorstand.contact.phone }}"
+                            class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">Telefon</a>
                     </li>
                     {{ end }}
                 </ul>
@@ -53,8 +55,8 @@
             {{ range $teamer := sort .Site.Data.team.teamer "first_name" }}
             <div class="block p-4">
                 {{ if $teamer.image }}
-                <img class="mx-auto mb-4 w-full h-auto rounded-full"
-                    src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png"
+                <img class="mx-auto mb-4 w-full h-auto rounded-full" loading="lazy"
+                    src="{{ $teamer.img }}"
                     alt="Profilbild {{ $teamer.first_name }} {{ $teamer.last_name }}">
                 {{ else}}
                 <svg class="mx-auto mb-4 w-full h-auto rounded-full text-primary-500" aria-hidden="true"
@@ -84,12 +86,14 @@
                     {{ $contact := $teamer.contact }}
                     {{ if $teamer.contact.email }}
                     <li>
-                        <a href="mailto:{{ $teamer.contact.email }}" class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">E-Mail</a>
+                        <a href="mailto:{{ $teamer.contact.email }}"
+                            class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">E-Mail</a>
                     </li>
                     {{ end }}
                     {{ if $teamer.contact.phone }}
                     <li>
-                        <a href="mailto:{{ $teamer.contact.phone }}" class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">Telefon</a>
+                        <a href="mailto:{{ $teamer.contact.phone }}"
+                            class="text-white block bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 py-1 px-3 rounded-full border-0 w-full text-center">Telefon</a>
                     </li>
                     {{ end }}
                 </ul>
