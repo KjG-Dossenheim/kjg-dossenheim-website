@@ -1,12 +1,11 @@
 <section>
-    <div class="px-4 mx-auto max-w-screen-xl">
-        <h3 class="py-4">Unser Vorstand</h3>
-        <div class="grid gap-2 xl:gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
+    <div class="mx-auto max-w-screen-xl">
+        <h3 class="pb-4">Unser Vorstand</h3>
+        <div class="grid gap-2 xl:gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
             {{ range $vorstand := sort .Site.Data.team.vorstand "first_name"}}
             <div class="block p-4">
                 {{ if $vorstand.image }}
-                <img class="mx-auto mb-4 w-full h-auto rounded-full" loading="lazy"
-                    src="{{ $vorstand.img }}"
+                <img class="mx-auto mb-4 w-full h-auto rounded-full" loading="lazy" src="{{ $vorstand.img }}"
                     alt="Profilbild {{ $vorstand.first_name }} {{ $vorstand.last_name }}">
                 {{ else}}
                 <svg class="mx-auto mb-4 w-full h-auto rounded-full text-primary-500" aria-hidden="true"
@@ -28,11 +27,12 @@
                     </div>
                     <div class="text-left mx-auto">
                         {{ if $vorstand.since }}
-                        <p>Mitglied seit: {{ $vorstand.since }}</p>
+                        <p class="text-sm">Seit: {{ $vorstand.since }}</p>
                         {{ end }}
                     </div>
                 </div>
-                <ul class="flex mt-4 space-x-4 *:list-none *:grow">
+                <ul
+                    class="flex flex-col mx-auto sm:flex-row mt-4 space-y-2 sm:space-y-0 sm:space-x-2 *:list-none *:text-sm justify-center">
                     {{ $contact := $vorstand.contact }}
                     {{ if $vorstand.contact.email }}
                     <li>
@@ -51,12 +51,11 @@
             {{ end }}
         </div>
         <h3 class="py-4">Unsere Teamer</h3>
-        <div class="grid gap-2 xl:gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
+        <div class="grid gap-2 xl:gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
             {{ range $teamer := sort .Site.Data.team.teamer "first_name" }}
             <div class="block p-4">
                 {{ if $teamer.image }}
-                <img class="mx-auto mb-4 w-full h-auto rounded-full" loading="lazy"
-                    src="{{ $teamer.img }}"
+                <img class="mx-auto mb-4 w-full h-auto rounded-full" loading="lazy" src="{{ $teamer.img }}"
                     alt="Profilbild {{ $teamer.first_name }} {{ $teamer.last_name }}">
                 {{ else}}
                 <svg class="mx-auto mb-4 w-full h-auto rounded-full text-primary-500" aria-hidden="true"
@@ -78,11 +77,12 @@
                     </div>
                     <div class="text-left mx-auto">
                         {{ if $teamer.since }}
-                        <p>Mitglied seit: {{ $teamer.since }}</p>
+                        <p class="text-sm">Seit: {{ $teamer.since }}</p>
                         {{ end }}
                     </div>
                 </div>
-                <ul class="flex mt-4 space-x-4 *:list-none *:grow">
+                <ul
+                    class="flex flex-col mx-auto sm:flex-row mt-4 space-y-2 sm:space-y-0 sm:space-x-2 *:list-none *:text-sm justify-center">
                     {{ $contact := $teamer.contact }}
                     {{ if $teamer.contact.email }}
                     <li>
