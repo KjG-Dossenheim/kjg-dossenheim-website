@@ -52,7 +52,8 @@
             </div>
         </div>
         {{ $img := resources.GetRemote $unterkunft.bild }}
-        <img loading="lazy" alt="{{ $unterkunft.name }}" src="{{ $img.RelPermalink }}"
+        {{ $processed := $img.Process "webp" }}
+        <img loading="lazy" alt="{{ $unterkunft.name }}" src="{{ $processed.RelPermalink }}"
             class=" w-full object-cover sm:h-full" />
     </section>
     <section class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 mx-auto">
