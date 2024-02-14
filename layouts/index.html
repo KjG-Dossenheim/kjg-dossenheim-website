@@ -41,7 +41,7 @@
         {{ $image := resources.Get "/images/team.jpg"}}
         {{ with $image }}
         {{ $processed := .Process "webp" }}
-        <img class="w-full rounded" src="{{ $processed.RelPermalink }}" alt="team image" loading="lazy">
+        <img class="w-full rounded" src="{{ $processed.RelPermalink }}" alt="team image">
         {{ end }}
         <div class="mt-4 md:mt-0">
             <h2 class="mb-4 tracking-tight font-extrabold">Wir sind eine Familie ❤️</h2>
