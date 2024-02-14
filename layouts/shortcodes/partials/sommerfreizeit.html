@@ -4,71 +4,72 @@
 {{ $preis := .Site.Data.sommerfreizeit.preis }}
 <div>
     <section
-        class="bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-gray-700 bg-blend-multiply">
+        class="bg-cover bg-center bg-no-repeat bg-[url('https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5')] bg-gray-700 bg-blend-multiply">
         <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
             <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-white md:text-5xl lg:text-6xl">
-                {{ .Page.Title }} </h1>
-            <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">{{
-                .Site.Data.sommerfreizeit.informationen.start_datum | time.Format ":date_full" }} bis {{
-                .Site.Data.sommerfreizeit.informationen.end_datum | time.Format ":date_full" }}</p>
+                Sommerfreizeit 2024 </h1>
+            <p class="mb-8 text-lg font-normal text-gray-300 lg:text-xl sm:px-16 lg:px-48">Sonntag, 1. September 2024
+                bis Samstag, 7. September 2024</p>
             <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
-                <a href="{{ .Site.Data.sommerfreizeit.informationen.pretix_url }}" target="_blank"
-                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-700">
+                <a href="https://pretix.kjg-dossenheim.org/kjg-dossenheim/freizeit-2024/" target="_blank"
+                    class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-full bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-700">
                     Jetzt anmelden
                     <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M1 5h12m0 0L9 1m4 4L9 9" />
+                            d="M1 5h12m0 0L9 1m4 4L9 9"></path>
                     </svg>
                 </a>
                 <a href="#info"
-                    class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-lg border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
+                    class="inline-flex justify-center hover:text-gray-900 items-center py-3 px-5 sm:ms-4 text-base font-medium text-center text-white rounded-full border border-white hover:bg-gray-100 focus:ring-4 focus:ring-gray-400">
                     Informationen
                 </a>
             </div>
         </div>
     </section>
 </div>
-<div id="info" class="">
-    <div class="py-16 px-4 text-center">
+<section id="info" class="">
+    <section class="py-16 px-4 text-center">
         <h2 class="mb-4 font-extrabold leading-loose tracking-tight">Für <span
                 class="underline decoration-8 decoration-accent-400 dark:decoration-accent-600">alle</span> Kinder
             zwischen der 3. Klasse und 14 Jahren</h2>
-    </div>
-    <section class="overflow-hidden sm:grid sm:grid-cols-2">
+    </section>
+    <section class="overflow-hidden md:grid md:grid-cols-2">
         <div class="p-8 md:p-12 lg:px-16 lg:py-24">
-            <div class="mx-auto max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+            <div class="mx-auto max-w-xl text-center ltr:md:text-left rtl:md:text-right">
                 <h2 class="text-2xl font-bold md:text-3xl">
                     Unterkunft
                 </h2>
 
-                <p class=" text-gray-500 md:mt-4">
+                <p class=" text-secondary-500 md:mt-4">
                     {{ $unterkunft.beschreibung }}
                 </p>
 
                 <div class="mt-4 md:mt-8">
                     <a href="{{ $unterkunft.unterkunft_url }}" target="_blank" rel="noopener noreferrer"
-                        class="inline-block rounded-lg bg-primary-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-primary-600 focus:outline-none focus:ring focus:ring-yellow-400">
+                        class="inline-block rounded-full bg-primary-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-primary-600 focus:outline-none focus:ring focus:ring-yellow-400">
                         {{ $unterkunft.name }}
                     </a>
                 </div>
             </div>
         </div>
-        <img loading="lazy" alt="{{ $unterkunft.name }}" src="{{ $unterkunft.bild }}"
-            class="h-56 w-full object-cover sm:h-full" />
+        {{ $img := resources.GetRemote $unterkunft.bild }}
+        <img loading="lazy" alt="{{ $unterkunft.name }}" src="{{ $img.RelPermalink }}"
+            class=" w-full object-cover sm:h-full" />
     </section>
-    <div class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 mx-auto">
+    <section class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 mx-auto">
         <h2 class="text-center pb-4">Teilnehmerbeitrag</h2>
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8">
             <div
-                class="bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 divide-y divide-gray-200 rounded-2xl shadow-sm">
+                class="bg-secondary-50 dark:bg-secondary-800 border border-secondary-200 dark:border-secondary-700 divide-y divide-secondary-200 rounded-2xl shadow-sm">
                 <div class="p-6 sm:px-8">
                     <h2 class="text-lg font-medium text-primary-500">
                         Ermäßigter Beitrag
                         <span class="sr-only">Plan</span>
                     </h2>
 
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">Für jedes weitere Kind oder finanziell Schwächere
+                    <p class="mt-2 text-secondary-500 dark:text-secondary-400">Für jedes weitere Kind oder finanziell
+                        Schwächere
                     </p>
 
                     <p class="mt-2 sm:mt-4">
@@ -76,7 +77,7 @@
 
                         <span class="text-sm font-medium text-primary-500">/pro Teilnehmer</span>
                     </p>
-                    <a class="mt-4 block rounded-lg border border-primary-500 bg-primary-500 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-primary-500 focus:outline-none focus:ring active:text-primary-400 sm:mt-6"
+                    <a class="mt-4 block rounded-full border border-primary-500 bg-primary-500 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-primary-500 focus:outline-none focus:ring active:text-primary-400 sm:mt-6"
                         href="{{ .Site.Data.sommerfreizeit.informationen.pretix_url }} ">
                         Jetzt anmelden
                     </a>
@@ -91,7 +92,8 @@
                                 stroke="currentColor" class="h-5 w-5 text-primary-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
-                            <span class="text-gray-500 dark:text-gray-400">Leckere und Gesunde Ernährung 🥕</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">Leckere und Gesunde Ernährung
+                                🥕</span>
                         </li>
 
                         <li class="flex items-center gap-1">
@@ -100,7 +102,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
 
-                            <span class="text-gray-500 dark:text-gray-400">Unterkunft im Grünen 🏠</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">Unterkunft im Grünen 🏠</span>
                         </li>
                         <li class="flex items-center gap-1">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -108,7 +110,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
 
-                            <span class="text-gray-500 dark:text-gray-400">Tolle Ausflüge 🤩</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">Tolle Ausflüge 🤩</span>
                         </li>
 
                         <li class="flex items-center gap-1">
@@ -117,21 +119,22 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
 
-                            <span class="text-gray-500 dark:text-gray-400">1 Woche Spaß 🥳</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">1 Woche Spaß 🥳</span>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div
-                class="divide-y divide-gray-200 rounded-2xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm">
+                class="divide-y divide-secondary-200 rounded-2xl bg-secondary-50 dark:bg-secondary-800 border border-secondary-200 dark:border-secondary-700 shadow-sm">
                 <div class="p-6 sm:px-8">
                     <h2 class="text-lg font-medium text-primary-500">
                         Kalkulierter Beitrag
                         <span class="sr-only">Plan</span>
                     </h2>
 
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">Der von uns kalkulierte Teilnehmerbeitrag für die
+                    <p class="mt-2 text-secondary-500 dark:text-secondary-400">Der von uns kalkulierte Teilnehmerbeitrag
+                        für die
                         Freizeit</p>
 
                     <p class="mt-2 sm:mt-4">
@@ -140,7 +143,7 @@
 
                         <span class="text-sm font-medium text-primary-500">/pro Teilnehmer</span>
                     </p>
-                    <a class="mt-4 block rounded-lg border border-primary-500 bg-primary-500 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-primary-500 focus:outline-none focus:ring active:text-primary-400 sm:mt-6"
+                    <a class="mt-4 block rounded-full border border-primary-500 bg-primary-500 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-primary-500 focus:outline-none focus:ring active:text-primary-400 sm:mt-6"
                         href="{{ .Site.Data.sommerfreizeit.informationen.pretix_url }} ">
                         Jetzt anmelden
                     </a>
@@ -154,7 +157,8 @@
                                 stroke="currentColor" class="h-5 w-5 text-primary-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
-                            <span class="text-gray-500 dark:text-gray-400">Leckere und Gesunde Ernährung 🥕</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">Leckere und Gesunde Ernährung
+                                🥕</span>
                         </li>
 
                         <li class="flex items-center gap-1">
@@ -163,7 +167,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
 
-                            <span class="text-gray-500 dark:text-gray-400">Unterkunft im Grünen 🏠</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">Unterkunft im Grünen 🏠</span>
                         </li>
 
                         <li class="flex items-center gap-1">
@@ -172,7 +176,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
 
-                            <span class="text-gray-500 dark:text-gray-400">Tolle Ausflüge 🤩</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">Tolle Ausflüge 🤩</span>
                         </li>
 
                         <li class="flex items-center gap-1">
@@ -181,21 +185,22 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
 
-                            <span class="text-gray-500 dark:text-gray-400">1 Woche Spaß 🥳</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">1 Woche Spaß 🥳</span>
                         </li>
                     </ul>
                 </div>
             </div>
 
             <div
-                class="divide-y divide-gray-200 rounded-2xl bg-gray-50 dark:bg-gray-800 border border-gray-200 dark:border-gray-700 shadow-sm">
+                class="divide-y divide-secondary-200 rounded-2xl bg-secondary-50 dark:bg-secondary-800 border border-secondary-200 dark:border-secondary-700 shadow-sm">
                 <div class="p-6 sm:px-8">
                     <h2 class="text-lg font-medium text-primary-500">
                         Solidarbeitrag
                         <span class="sr-only">Plan</span>
                     </h2>
 
-                    <p class="mt-2 text-gray-500 dark:text-gray-400">Ermöglicht uns die Sommerfreizeit für <u>alle</u>
+                    <p class="mt-2 text-secondary-500 dark:text-secondary-400">Ermöglicht uns die Sommerfreizeit für
+                        <u>alle</u>
                         anzubieten
                     </p>
 
@@ -204,7 +209,7 @@
 
                         <span class="text-sm font-medium text-primary-500">/pro Teilnehmer</span>
                     </p>
-                    <a class="mt-4 block rounded-lg border border-primary-500 bg-primary-500 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-primary-500 focus:outline-none focus:ring active:text-primary-400 sm:mt-6"
+                    <a class="mt-4 block rounded-full border border-primary-500 bg-primary-500 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-primary-500 focus:outline-none focus:ring active:text-primary-400 sm:mt-6"
                         href="{{ .Site.Data.sommerfreizeit.informationen.pretix_url }} ">
                         Jetzt anmelden
                     </a>
@@ -218,7 +223,8 @@
                                 stroke="currentColor" class="h-5 w-5 text-primary-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
-                            <span class="text-gray-500 dark:text-gray-400">Leckere und Gesunde Ernährung 🥕</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">Leckere und Gesunde Ernährung
+                                🥕</span>
                         </li>
                         <li class="flex items-center gap-1">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -226,7 +232,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
 
-                            <span class="text-gray-500 dark:text-gray-400">Unterkunft im Grünen 🏠</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">Unterkunft im Grünen 🏠</span>
                         </li>
 
                         <li class="flex items-center gap-1">
@@ -235,7 +241,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
 
-                            <span class="text-gray-500 dark:text-gray-400">Tolle Ausflüge 🤩</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">Tolle Ausflüge 🤩</span>
                         </li>
                         <li class="flex items-center gap-1">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -243,26 +249,28 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
 
-                            <span class="text-gray-500 dark:text-gray-400">1 Woche Spaß 🥳</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">1 Woche Spaß 🥳</span>
                         </li>
                         <li class="flex items-center gap-1">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="h-5 w-5 text-primary-500">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
                             </svg>
-                            <span class="text-gray-500 dark:text-gray-400">Solidarbeitrag</span>
+                            <span class="text-secondary-500 dark:text-secondary-400">Solidarbeitrag</span>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
+    </section>
+    </section>
+    <section>
     <div id="accordion-color" data-accordion="collapse" class="max-w-screen-lg mx-auto space-y-1.5 p-2"
-        data-active-classes="bg-primary-100 dark:bg-gray-800 text-primary-500">
+        data-active-classes="bg-primary-100 dark:bg-secondary-800 text-primary-500">
         <h2 class="text-center text-primary-500 mb-5">Was uns ausmacht
             <h4 id="accordion-color-heading-1" class="font-bold">
                 <button type="button"
-                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border rounded-full border-gray-200 focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800 dark:border-gray-700 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-gray-800 gap-3"
+                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-secondary-500 border rounded-full border-secondary-200 focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800 dark:border-secondary-700 dark:text-secondary-400 hover:bg-primary-100 dark:hover:bg-secondary-800 gap-3"
                     data-accordion-target="#accordion-color-body-1" aria-expanded="true"
                     aria-controls="accordion-color-body-1">
                     <span>Vielfältigkeit</span>
@@ -274,19 +282,21 @@
                 </button>
             </h4>
             <div id="accordion-color-body-1" class="hidden" aria-labelledby="accordion-color-heading-1">
-                <div class="p-5 border border-gray-200 dark:border-gray-700 dark:bg-gray-900 rounded-3xl">
-                    <p class="mb-2 text-lg text-gray-500 dark:text-gray-400">
+                <div
+                    class="p-5 border border-secondary-200 dark:border-secondary-700 dark:bg-secondary-900 rounded-3xl">
+                    <p class="mb-2 text-lg text-secondary-500 dark:text-secondary-400">
                         Die Sommerfreizeit ist für alle da! Egal woher du kommst, welcher Religion du angehörst oder wie
                         deine finanzielle Situation aussieht. Wir geben jedem Kind die Möglichkeit auf der
                         Sommerfreizeit eine gute Zeit zu haben. Unser Team ist ein bunter Mix aus Menschen
                         verschiedenster Lebenslagen. Von Schülern bis Studenten und Berufstätigen aller Fachrichtungen.
                         Mit den verschiedenen Erfahrungen und Kenntnissen machen wir die Sommerfreizeit zu dem was sie
-                        ist.</p>
+                        ist. </p>
+
                 </div>
             </div>
             <h4 id="accordion-color-heading-2" class="font-bold">
                 <button type="button"
-                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border rounded-full border-gray-200 focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800 dark:border-gray-700 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-gray-800 gap-3"
+                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-secondary-500 border rounded-full border-secondary-200 focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800 dark:border-secondary-700 dark:text-secondary-400 hover:bg-primary-100 dark:hover:bg-secondary-800 gap-3"
                     data-accordion-target="#accordion-color-body-2" aria-expanded="false"
                     aria-controls="accordion-color-body-2">
                     <span>Kreativität</span>
@@ -298,8 +308,10 @@
                 </button>
             </h4>
             <div id="accordion-color-body-2" class="hidden" aria-labelledby="accordion-color-heading-2">
-                <div class="p-5 border border-gray-200 dark:border-gray-700 dark:bg-gray-900 rounded-3xl">
-                    <p class="mb-2 text-lg text-gray-500 dark:text-gray-400">Ein großer Teil unserer Arbeit fließt die
+                <div
+                    class="p-5 border border-secondary-200 dark:border-secondary-700 dark:bg-secondary-900 rounded-3xl">
+                    <p class="mb-2 text-lg text-secondary-500 dark:text-secondary-400">Ein großer Teil unserer Arbeit
+                        fließt die
                         Vorbereitung des Programms. Dafür investieren wir ehrenamtlich unsere Zeit, um den Kindern das
                         bestmögliche Programm bieten zu können bei dem für jeden etwas dabei ist.
                     </p>
@@ -307,7 +319,7 @@
             </div>
             <h4 id="accordion-color-heading-3" class="font-bold">
                 <button type="button"
-                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border rounded-full border-gray-200 focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800 dark:border-gray-700 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-gray-800 gap-3"
+                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-secondary-500 border rounded-full border-secondary-200 focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800 dark:border-secondary-700 dark:text-secondary-400 hover:bg-primary-100 dark:hover:bg-secondary-800 gap-3"
                     data-accordion-target="#accordion-color-body-3" aria-expanded="false"
                     aria-controls="accordion-color-body-3">
                     <span>Professionalität</span>
@@ -319,13 +331,16 @@
                 </button>
             </h4>
             <div id="accordion-color-body-3" class="hidden" aria-labelledby="accordion-color-heading-3">
-                <div class="p-5 border border-gray-200 dark:border-gray-700 dark:bg-gray-900 rounded-3xl">
-                    <p class="mb-2 text-lg text-gray-500 dark:text-gray-400">Nur wenige unserer Teamer arbeiten
+                <div
+                    class="p-5 border border-secondary-200 dark:border-secondary-700 dark:bg-secondary-900 rounded-3xl">
+                    <p class="mb-2 text-lg text-secondary-500 dark:text-secondary-400">Nur wenige unserer Teamer
+                        arbeiten
                         hauptberuflich mit Kindern. Wir sorgen daher vorab mit verschiedenen pädagogischen Einheiten für
                         eine solide Grundlage. Dazu gehören unter anderem Erste-Hilfe-Kurse, Kinderschutzschulungen und
                         viele weitere Fortbildungen. Jeder unserer Leiter hat die JuLeiCa (www.juleica.de)
                     </p>
-                    <p class="mb-2 text-lg text-gray-500 dark:text-gray-400"> Unsere Vorbereitung planen wir effizient
+                    <p class="mb-2 text-lg text-secondary-500 dark:text-secondary-400"> Unsere Vorbereitung planen wir
+                        effizient
                         mit Projektmanagementtools und unser Anmeldungsprozess ist vollständig digital. In allen unseren
                         Bereichen geben wir unser bestes. So schaffen wir einen nachhaltigen Mix aus Fortschritt
                         und unseren Traditionen.
@@ -335,7 +350,7 @@
             </div>
             <h4 id="accordion-color-heading-4" class="font-bold">
                 <button type="button"
-                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border rounded-full border-gray-200 focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800 dark:border-gray-700 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-gray-800 gap-3"
+                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-secondary-500 border rounded-full border-secondary-200 focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800 dark:border-secondary-700 dark:text-secondary-400 hover:bg-primary-100 dark:hover:bg-secondary-800 gap-3"
                     data-accordion-target="#accordion-color-body-4" aria-expanded="false"
                     aria-controls="accordion-color-body-4">
                     <span>Spaß muss sein</span>
@@ -347,8 +362,9 @@
                 </button>
             </h4>
             <div id="accordion-color-body-4" class="hidden" aria-labelledby="accordion-color-heading-4">
-                <div class="p-5 border border-gray-200 dark:border-gray-700 dark:bg-gray-900 rounded-3xl">
-                    <p class="mb-2 text-lg text-gray-500 dark:text-gray-400">
+                <div
+                    class="p-5 border border-secondary-200 dark:border-secondary-700 dark:bg-secondary-900 rounded-3xl">
+                    <p class="mb-2 text-lg text-secondary-500 dark:text-secondary-400">
                         Nicht falsch verstehen, Regeln sind wichtig und auch bei uns gibt es welche. Auf der
                         Sommerfreizeit gelten jedoch andere Regeln, als im Alltag. Wir machen eine Menge Unfug mit und
                         sind für jeden Spaß zu haben, solange das Ganze unseren Grundregeln und Werten entspricht und
@@ -359,7 +375,7 @@
             </div>
             <h4 id="accordion-color-heading-5" class="font-bold">
                 <button type="button"
-                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-gray-500 border rounded-full border-gray-200 focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800 dark:border-gray-700 dark:text-gray-400 hover:bg-primary-100 dark:hover:bg-gray-800 gap-3"
+                    class="flex items-center justify-between w-full p-5 font-medium rtl:text-right text-secondary-500 border rounded-full border-secondary-200 focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-800 dark:border-secondary-700 dark:text-secondary-400 hover:bg-primary-100 dark:hover:bg-secondary-800 gap-3"
                     data-accordion-target="#accordion-color-body-5" aria-expanded="false"
                     aria-controls="accordion-color-body-5">
                     <span>Kulinarik</span>
@@ -371,8 +387,9 @@
                 </button>
             </h4>
             <div id="accordion-color-body-5" class="hidden" aria-labelledby="accordion-color-heading-5">
-                <div class="p-5 border border-gray-200 dark:border-gray-700 dark:bg-gray-900 rounded-3xl">
-                    <p class="mb-2 text-lg text-gray-500 dark:text-gray-400">
+                <div
+                    class="p-5 border border-secondary-200 dark:border-secondary-700 dark:bg-secondary-900 rounded-3xl">
+                    <p class="mb-2 text-lg text-secondary-500 dark:text-secondary-400">
                         Bei uns gibt es mindestens drei Mahlzeiten am Tag, zwei davon meist warm. Wir achten auf eine
                         ausgewogene Ernährung und kochen so viel wie möglich selbst. Natürlich gibt es auch mal Pizza
                         oder Pommes, aber wir versuchen, das Ganze so gesund wie möglich zu gestalten. Das Essen ist
@@ -382,4 +399,5 @@
                 </div>
             </div>
     </div>
+</section>
 </div>
