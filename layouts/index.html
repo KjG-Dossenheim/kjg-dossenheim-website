@@ -38,7 +38,7 @@
 </section>
 <section>
     <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
-        {{ $image := resources.Get "images/team.jpg"}}
+        {{ $image := resources.Get "/images/team.jpg"}}
         {{ with $image }}
         {{ $processed := .Process "webp" }}
         <img class="w-full rounded" src="{{ $processed.RelPermalink }}" alt="team image" loading="lazy">

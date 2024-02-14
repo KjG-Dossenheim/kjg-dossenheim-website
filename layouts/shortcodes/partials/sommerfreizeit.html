@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        {{ $img := resources.Get "images/orh_2016 (5)2.jpg" }}
+        {{ $img := resources.GetRemote $unterkunft.bild }}
         <img loading="lazy" alt="{{ $unterkunft.name }}" src="{{ $img.RelPermalink }}"
             class=" w-full object-cover sm:h-full" />
     </section>
