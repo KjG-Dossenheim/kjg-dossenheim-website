@@ -19,7 +19,6 @@ title: "Packliste"
 * Impfpass
 * Ein Kindersitz, falls ihr Kind einen benötigt
 * Mäppchen mit Stiften, Schere und Kleber
-* Leeres Marmeladenglas
 * Viel Spaß und gute Laune :-)
 ##### Mitgenommen werden können
 * Spiele, Bücher
@@ -30,5 +29,5 @@ title: "Packliste"
 * CD-Player
 * Lautsprecherboxen
 * Messer (auch Taschenmesser) und andere verletzungsgefährdende Gegenstände
-* Laptops oder Spielkonsolen
-* Handys
+* Notebooks, Tablets, Laptops
+* Smartphones (für Notfälle ist ein Telefon vor Ort und die Betreuer sind erreichbar)
