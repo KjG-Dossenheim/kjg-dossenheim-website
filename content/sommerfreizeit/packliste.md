@@ -29,5 +29,5 @@ title: "Packliste"
 * CD-Player
 * Lautsprecherboxen
 * Messer (auch Taschenmesser) und andere verletzungsgefährdende Gegenstände
-* Notebooks, Tablets, Laptops
+* Notebooks, Tablets, Konsolen etc.
 * Smartphones (für Notfälle ist ein Telefon vor Ort und die Betreuer sind erreichbar)
