@@ -32,10 +32,13 @@ teamer:
     since: 2021
   - first_name: Florian
     last_name: Wiedmaier
+    since: 2010
   - first_name: Sebastian
     last_name: Gutfleisch
+    since: 2010
   - first_name: Johannes
     last_name: Gutfleisch
+    since: 2010
   - first_name: Matilda
     last_name: Pfeifer
     since: 2023
