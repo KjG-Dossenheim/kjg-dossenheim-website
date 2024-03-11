@@ -10,4 +10,12 @@ An der vergangenen 72-Stunden-Aktion im Mai 2019 - der zweiten bundesweiten - ha
 Und nicht nur überall in Deutschland, sondern auch in 45 internationale Gruppen.  
 2024 findet die dritte Bundesweite 72-Stunden-Aktion statt.
 
+{{< newsletter 
+heading="Lust bei der 72-Stunden-Aktion mitzumachen?"
+sub-heading="Bleib auf dem Laufenden über Ankündigungen, indem du dich für den Newsletter anmeldest."
+UUID="25dce7e9-2aaf-44e9-9576-4be357af2ca2"
+>}}
+
+
 {{< hero-button heading="Weiter Fragen?" url="https://72stunden.de" text="Webseite der 72h-Aktion" >}}
+
