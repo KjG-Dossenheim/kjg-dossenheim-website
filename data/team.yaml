@@ -18,15 +18,21 @@ teamer:
   - first_name: Andreas 
     last_name: Müller
     since: 2016
+    contact:
+      email: andreas.mueller@kjg-dossenheim.org
   - first_name: Fabienne 
     last_name: Pfeifer
     since: 2020
   - first_name: Lina 
     last_name: Zeller
     since: 2021
+    contact:
+      email: lina.zeller@kjg-dossenheim.org
   - first_name: Lotte 
     last_name: Neustadt
     since: 2021
+    contact:
+      email: lotte.neustadt@kjg-dossenheim.org
   - first_name: Elena 
     last_name: Neumann
     since: 2021
@@ -43,11 +49,16 @@ teamer:
     last_name: Pfeifer
     since: 2023
   - first_name: Marc
-    last_name: Schneikert
+    last_name: Schneickert
     since: 2023
+    contact:
+      email: marc.schneickert@kjg-dossenheim.org
   - first_name: David
     last_name: Haynes
     since: 2023
-  - first_name: Constantin
-    last_name: M.
-    since: 2024
+  - first_name: Paulina
+    last_name: Pfeifer
+    since: 2021
+  - first_name: Maike 
+    last_name: Kuhn
+    since: 2021
