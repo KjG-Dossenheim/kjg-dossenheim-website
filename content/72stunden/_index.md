@@ -2,32 +2,43 @@
 title: "72h-Aktion"
 
 ---
-
-**Die KjG Dossenheim sucht Helden!**
-
-Du bist mindestens in der 3. Klasse und hast Lust, etwas Sinnvolles zu tun? Dann bist du bei der 72-Stunden-Aktion genau richtig!
-
-**Was ist die 72-Stunden-Aktion?**
-
+{{< faq title="Was ist die 72-Stunden-Aktion?" >}}
 Die 72-Stunden-Aktion ist eine riesige Aktion des Bundes der Deutschen Katholischen Jugend (BDKJ). In 72 Stunden, also von Donnerstag bis Sonntag, werden in ganz Deutschland Projekte umgesetzt, die die Welt ein bisschen besser machen.
+{{< / faq >}}
 
-**Was machen wir?**
+{{< faq title="Wann geht es los?" >}}
+Wir fangen erst am Freitag, den 19. April 2024 an. Dann haben wir bis Sonntag, den 21. April 2024, Zeit, um unsere Aufgabe zu erfüllen.
+{{< / faq >}}
 
+{{< faq title="Was machen wir?" >}}
 Das ist noch geheim! Wir wissen nur, dass es eine spannende Aufgabe sein wird, bei der wir anpacken und etwas verändern können.
+{{< / faq >}}
 
-**Sei dabei und mach die Welt ein bisschen besser!**
+{{< faq title="Wo findet die Aktion statt?" >}}
+Wir treffen uns an der kath. Pfarrwiese in Dossenheim. Von dort aus werden wir gemeinsam zu unserem Projekt fahren.
+{{< / faq >}}
 
-**Warum mitmachen?**
+{{< faq title="Wer kann mitmachen?" >}}
+Alle Kinder ab der 3. Klasse sind herzlich eingeladen, mitzumachen. Auch ältere Jugendliche und Erwachsene sind herzlich willkommen, uns zu unterstützen.
+{{< / faq >}}
 
+{{< faq title="Was kostet die Teilnahme?" >}}
+Die Teilnahme ist kostenlos. Wir sorgen für Verpflegung und Material. 
+{{< / faq >}}
+
+{{< faq title="Was brauche ich?" >}}
+* Gute Laune
+* Ein bisschen Mut
+* Vielleicht ein paar Freunde, die auch mitmachen
+{{< / faq >}}
+
+{{< faq title="Warum mitmachen?" >}}
 * Gemeinsam etwas bewegen
 * Neue Leute kennenlernen
 * Spaß haben
 * Sinnvolles tun
 * Den Glauben in die Tat umsetzen
-
-Die 72-Stunden-Aktion ist eine tolle Erfahrung, die du nie vergessen wirst!
-
-Also, worauf wartest du noch? Melde dich jetzt an!
+{{< / faq >}}
 
 {{< hero-button heading="Jetzt anmelden!" text="Online Anmeldung" url="https://on.campflow.de/kjg-dossenheim-5076/72h-aktion" >}}
 
