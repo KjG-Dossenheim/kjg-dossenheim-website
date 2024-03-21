@@ -2,6 +2,8 @@
 title: "72h-Aktion"
 
 ---
+{{< hero-button heading="Jetzt anmelden!" text="Online Anmeldung" url="https://on.campflow.de/kjg-dossenheim-5076/72h-aktion" >}}
+
 {{< faq title="Was ist die 72-Stunden-Aktion?" >}}
 Die 72-Stunden-Aktion ist eine riesige Aktion des Bundes der Deutschen Katholischen Jugend (BDKJ). In 72 Stunden, also von Donnerstag bis Sonntag, werden in ganz Deutschland Projekte umgesetzt, die die Welt ein bisschen besser machen.
 {{< / faq >}}
@@ -39,9 +41,6 @@ Die Teilnahme ist kostenlos. Wir sorgen für Verpflegung und Material.
 * Sinnvolles tun
 * Den Glauben in die Tat umsetzen
 {{< / faq >}}
-
-{{< hero-button heading="Jetzt anmelden!" text="Online Anmeldung" url="https://on.campflow.de/kjg-dossenheim-5076/72h-aktion" >}}
-
 
 {{< newsletter 
 heading="Lust auf die 72h-Aktion?"
