@@ -10,6 +10,11 @@ Die 72-Stunden-Aktion ist eine riesige Aktion des Bundes der Deutschen Katholisc
 
 {{< faq title="Wann geht es los?" >}}
 Wir fangen erst am Freitag, den 19. April 2024 an. Dann haben wir bis Sonntag, den 21. April 2024, Zeit, um unsere Aufgabe zu erfüllen.
+Du kannst aber aber natürlich nur an einem Tag oder auch nur ein paar Stunden mitmachen ;)
+{{< / faq >}}
+
+{{< faq title="Wer kann mitmachen?" >}}
+Alle Kinder ab der 3. Klasse sind herzlich eingeladen, mitzumachen. Auch ältere Jugendliche und Erwachsene sind herzlich willkommen, uns zu unterstützen.
 {{< / faq >}}
 
 {{< faq title="Was machen wir?" >}}
@@ -18,10 +23,6 @@ Das ist noch geheim! Wir wissen nur, dass es eine spannende Aufgabe sein wird, b
 
 {{< faq title="Wo findet die Aktion statt?" >}}
 Wir treffen uns an der kath. Pfarrwiese in Dossenheim. Von dort aus werden wir gemeinsam zu unserem Projekt fahren.
-{{< / faq >}}
-
-{{< faq title="Wer kann mitmachen?" >}}
-Alle Kinder ab der 3. Klasse sind herzlich eingeladen, mitzumachen. Auch ältere Jugendliche und Erwachsene sind herzlich willkommen, uns zu unterstützen.
 {{< / faq >}}
 
 {{< faq title="Was kostet die Teilnahme?" >}}
