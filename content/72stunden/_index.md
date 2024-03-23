@@ -9,8 +9,8 @@ Die 72-Stunden-Aktion ist eine riesige Aktion des Bundes der Deutschen Katholisc
 {{< / faq >}}
 
 {{< faq title="Wann geht es los?" >}}
-Wir fangen erst am Freitag, den 19. April 2024 an. Dann haben wir bis Sonntag, den 21. April 2024, Zeit, um unsere Aufgabe zu erfüllen.
-Du kannst aber aber natürlich nur an einem Tag oder auch nur ein paar Stunden mitmachen ;)
+Wir fangen erst am Freitag, den 19. April 2024 an. Die genaue Uhrzeit werden wir noch bekannt geben. Dann haben wir bis Sonntag, den 21. April 2024, Zeit, um unsere Aufgabe zu erfüllen.
+Du kannst aber natürlich nur an einem Tag oder auch nur ein paar Stunden mitmachen ;)
 {{< / faq >}}
 
 {{< faq title="Wer kann mitmachen?" >}}
@@ -31,6 +31,7 @@ Die Teilnahme ist kostenlos. Wir sorgen für Verpflegung und Material.
 
 {{< faq title="Was brauche ich?" >}}
 * Gute Laune
+* Kleidung, die schmutzig werden darf
 * Ein bisschen Mut
 * Vielleicht ein paar Freunde, die auch mitmachen
 {{< / faq >}}
