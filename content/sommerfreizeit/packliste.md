@@ -1,5 +1,6 @@
 ---
 title: "Packliste"
+summary: "Was sollte ich für die Ökumenische Sommerfreizeit mitnehmen?"
 ---
 ##### Zur Freizeit mitgenommen werden sollten:
 * ausreichend Kleidung/Wechselwäsche
