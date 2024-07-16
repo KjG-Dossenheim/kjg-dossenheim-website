@@ -1,0 +1,22 @@
+[[aktion]]
+name = "Sommerfreizeit"
+start_date = 2024-09-01
+end_date = 2024-09-07
+link = "/sommerfreizeit/"
+
+[[aktion]]
+name = "Martinszug"
+start_date = 2024-11-09
+description = "Beginn:  Augustinusheim um 17:30 Uhr"
+link = "/martinszug/"
+
+[[aktion]]
+name = "Adventsmarkt"
+start_date = 2024-12-01
+end_date = 2024-12-02
+description = "um die Kath. Pfarrkirche"
+link = "/adventsmarkt/"
+
+[[aktion]]
+name = "Friedensgebet"
+start_date = 2025-01-01
