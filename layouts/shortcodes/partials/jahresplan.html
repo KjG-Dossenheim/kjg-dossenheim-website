@@ -1,6 +1,8 @@
 <div class="mx-auto max-w-fit">
 <ol class="relative border-l-2 border-dotted border-primary-500 dark:border-secondary-500">
-    {{ range $aktuell := sort .Site.Data.aktionen.aktuell "start_date" }}
+    {{ $startOfYear := time.AsTime (printf "%d-01-01" now.Year) }}
+    {{ $endOfYear := time.AsTime (printf "%d-12-31" now.Year) }}
+    {{ range $aktuell := where (where .Site.Data.aktionen.aktion "start_date" "gt" now) "start_date" "le" $endOfYear }}
     <li class="mb-10 ml-6 list-none">
         <span
             class="absolute flex items-center justify-center w-6 h-6 bg-primary-500 rounded-full -left-3 ring-8 ring-white dark:ring-secondary-900 dark:bg-secondary-500">
@@ -46,9 +48,10 @@
     </li>
     {{ end }}
 </ol>
-<h2 class="mb-4 text-4xl font-extrabold tracking-tight">Vorschau für {{ .Site.Data.aktionen.vorschau.year }} </h2>
+{{ $futureYear := now.AddDate 1 0 0 }}
+<h2 class="mb-4 text-4xl font-extrabold tracking-tight">Vorschau für {{ $futureYear.Format "2006" }}  </h2>
 <ol class="relative border-l-2 border-dashed border-primary-500">
-    {{ range $vorschau := .Site.Data.aktionen.vorschau.aktionen }}
+    {{ range $vorschau := where (where .Site.Data.aktionen.aktion "start_date" "gt" now) "start_date" "gt" $endOfYear }}
     <li class="mb-10 ml-6 list-none">
         <span
             class="absolute flex items-center justify-center w-6 h-6 bg-primary-500 rounded-full -left-3 ring-8 ring-white dark:ring-secondary-900 dark:bg-secondary-500">
