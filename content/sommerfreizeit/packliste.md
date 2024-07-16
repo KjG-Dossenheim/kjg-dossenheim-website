@@ -21,7 +21,7 @@ title: "Packliste"
 * Mäppchen mit Stiften, Schere und Kleber
 * Medikamente, falls ihr Kind auf diese angewiesen ist
 * Viel Spaß und gute Laune :-)
-##### Bitte bei Ankunft in einem Umschlag abgeben
+###### Bitte bei Ankunft in einem Umschlag abgeben
 * Krankenversichertenkarte (falls vorhanden)
 * Impfpass
 ##### Mitgenommen werden können
