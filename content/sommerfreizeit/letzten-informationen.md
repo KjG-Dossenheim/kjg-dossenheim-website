@@ -8,7 +8,7 @@ title: "Letzten Informationen"
 
 {{< faq title="Freizeithut" >}}
 Dieses Jahr gibt es einen Freizeithut für alle Teilnehmende. Dieser wird vor Ort ausgegeben und ist im Preis inbegriffen.
-Weiter Inforation sind in unsere letzten E-Mail zu finden.
+Weiter Informationen sind in unsere letzten E-Mail zu finden.
 {{< / faq >}}
 
 {{< faq title="Notfall-Kontakt" >}}
