@@ -9,8 +9,9 @@ summary: "Was sollte ich für die Ökumenische Sommerfreizeit mitnehmen?"
 * Regenschutz
 * Schicke Kleidung
 * feste Schuhe für draußen
-* mindestens einen Satz Kleidung für draußen, der dreckig werden darf
 * Hausschuhe
+* ein paar Schuhe, das dreckig werden darf
+* mindestens einen Satz Kleidung für draußen, der dreckig werden darf
 * Bettlaken und Bettwäsche
 * Handtücher
 * Sonnencreme-/schutz
@@ -18,8 +19,8 @@ summary: "Was sollte ich für die Ökumenische Sommerfreizeit mitnehmen?"
 * Trinkflasche
 * Brotdose
 * Rucksack
-* Taschengeld (max. 20€)
-* Mäppchen mit Stiften, Schere und Kleber
+* Taschengeld (max. 30€)
+* Mäppchen mit Stiften, Schere, Kleber etc.
 * Medikamente, falls ihr Kind auf diese angewiesen ist
 * Viel Spaß und gute Laune :-)
 ###### Bitte bei Ankunft in einem Umschlag abgeben
@@ -29,6 +30,7 @@ summary: "Was sollte ich für die Ökumenische Sommerfreizeit mitnehmen?"
 * Spiele, Bücher
 * Kuscheltier/-kissen (nicht zu groß)
 * handliche Musikinstrumente
+* Süßigkeiten oder anderes Naschzeug
 ##### Nicht mitgenommen werden dürfen
 * Lautsprecherboxen
 * Messer (auch Taschenmesser) und andere verletzungsgefährdende Gegenstände
