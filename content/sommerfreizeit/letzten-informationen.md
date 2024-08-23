@@ -6,6 +6,22 @@ title: "Letzten Informationen"
 [Klick mich!](https://kjg-dossenheim.org/sommerfreizeit/packliste/)
 {{< / faq >}}
 
+{{< faq title="Wie funktioniert die Anreise?" >}}
+01.09.2024 zwischen 11:30 und 12:00 Uhr
+   
+Adresse: Am Weiher 47, 67475 Weidenthal
+   
+Link Hinfahrt: https://fahrpool.com/event/mmdarbopz3jq
+{{< / faq >}}
+
+{{< faq title="Wie funktioniert die Abreise?" >}}
+07.09.2024 ab 11:00 Uhr
+   
+Adresse: Am Weiher 47, 67475 Weidenthal
+   
+Link Rückfahrt: https://fahrpool.com/event/mmde7qlk2oxc
+{{< / faq >}}
+
 {{< faq title="Freizeithut?" >}}
 Dieses Jahr gibt es einen Freizeithut für alle Teilnehmende. Dieser wird vor Ort ausgegeben und ist im Preis inbegriffen.
 Weiter Informationen sind in unsere letzten E-Mail zu finden.
