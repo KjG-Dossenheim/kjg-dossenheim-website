@@ -14,6 +14,7 @@ summary: "Was sollte ich für die Ökumenische Sommerfreizeit mitnehmen?"
 * mindestens einen Satz Kleidung für draußen, der dreckig werden darf
 * Bettlaken und Bettwäsche
 * Handtücher
+* Badebekleidung
 * Sonnencreme-/schutz
 * Sonnenhut/-mütze
 * Trinkflasche
