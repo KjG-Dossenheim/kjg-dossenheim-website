@@ -5,10 +5,10 @@ end_date = 2024-09-07
 link = "/sommerfreizeit/"
 
 [[aktion]]
-name = "Martinszug"
+name = "Martinsumzug"
 start_date = 2024-11-09
 description = "Beginn:  Augustinusheim um 17:30 Uhr"
-link = "/martinszug/"
+link = "/martinsumzug/"
 
 [[aktion]]
 name = "Adventsmarkt"
