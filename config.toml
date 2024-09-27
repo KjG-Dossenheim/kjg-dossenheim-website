@@ -31,9 +31,9 @@ disableKinds = ['taxonomy', 'term']
   name = 'Aktionen'
   identifier = "aktionen"
 [[menu.main]]
-    identifier = "martinszug"
-    name = "Martinszug"
-    url = "/martinszug/"
+    identifier = "martinsumzug"
+    name = "Martinsumzug"
+    url = "/martinsumzug/"
     parent = "aktionen"
 [[menu.main]]
     identifier = "sommerfreizeit"
