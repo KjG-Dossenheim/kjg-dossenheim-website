@@ -8,7 +8,7 @@ Wir freuen uns, mit euch und euren bunten Laternen vom Augustinusheim auf den Kr
 Dort erwartet euch die Aufführung des Martinsspiels sowie die Ausgabe der Martinsmännchen!
 
 {{< faq title="Wann?" >}}
-Am 11. November 2023 um 17.30 Uhr  
+Am 9. November 2024 um 17.30 Uhr  
 {{< / faq >}}
 
 {{< faq title="Wo?" >}}
