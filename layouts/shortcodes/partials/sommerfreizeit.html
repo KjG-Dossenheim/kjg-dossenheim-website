@@ -6,12 +6,13 @@
     <div class="px-4 mx-auto max-w-screen-xl text-center py-24 lg:py-56">
         <h1 class="mb-4 text-4xl font-extrabold tracking-tight leading-none text-primary-500 md:text-5xl lg:text-6xl">
             {{ .Page.Title }} </h1>
+        <h2> {{.Site.Data.sommerfreizeit.informationen.motto}} </h2>
         <p class="mb-8 text-lg font-normal text-primary-500 lg:text-xl sm:px-16 lg:px-48">{{
             .Site.Data.sommerfreizeit.informationen.start_datum | time.Format ":date_full" }} bis {{
             .Site.Data.sommerfreizeit.informationen.end_datum | time.Format ":date_full" }}</p>
         <div class="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
             <a href="{{ .Site.Data.sommerfreizeit.informationen.pretix_url }}" target="_blank"
-                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-full bg-primary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-700">
+                class="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-full bg-primary-500 dark:bg-secondary-500 hover:bg-primary-600 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-700">
                 Jetzt anmelden
                 <svg class="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                     fill="none" viewBox="0 0 14 10">
@@ -26,11 +27,11 @@
         </div>
     </div>
 </section>
-<section id="info" class="">
-    <section class="py-16 px-4 text-center">
-        <h2 class="mb-4 font-extrabold leading-loose tracking-tight">Für <span
+<section id="info">
+    <section class="py-16 px-4 text-center bg-primary-500 dark:bg-secondary-500 ">
+        <h2 class="text-white dark:text-primary-500 mb-4 font-extrabold leading-loose tracking-tight">Für <span
                 class="underline decoration-8 decoration-accent-400 dark:decoration-accent-600">alle</span> Kinder
-            zwischen der 3. Klasse und 14 Jahren</h2>
+            zwischen {{.Site.Data.sommerfreizeit.informationen.alter}}</h2>
     </section>
     <section class="overflow-hidden md:grid md:grid-cols-2">
         <div class="p-8 md:p-12 lg:px-16 lg:py-24">
@@ -43,7 +44,7 @@
                 </p>
                 <div class="mt-4 md:mt-8">
                     <a href="{{ $unterkunft.unterkunft_url }}" target="_blank" rel="noopener noreferrer"
-                        class="inline-block rounded-full bg-primary-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-primary-600 focus:outline-none focus:ring focus:ring-yellow-400">
+                        class="inline-block rounded-full bg-primary-500 dark:bg-secondary-500 px-12 py-3 text-sm font-medium text-white transition hover:bg-primary-600 focus:outline-none focus:ring focus:ring-yellow-400">
                         {{ $unterkunft.name }}
                     </a>
                 </div>
