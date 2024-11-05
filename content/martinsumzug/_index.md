@@ -1,6 +1,5 @@
 ---
 title: "Martinsumzug"
-
 ---
 
 Wir, die KjG Dossenheim, möchten euch ganz herzlich zum diesjährigen Martinsumzug einladen!
