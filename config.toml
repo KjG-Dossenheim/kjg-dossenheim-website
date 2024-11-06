@@ -14,7 +14,7 @@ disableKinds = ['taxonomy', 'term']
 
 [params]
   alertEnabled = true
-  alertTitle = "Ökumenische Sommerfreizeit 2024"
+  alertTitle = "Ökumenische Sommerfreizeit 2025"
   alertLink = "/sommerfreizeit/"
   description = "Die KjG Dossenheim vertritt die Interessen der Kinder und Jugendlichen in der katholischen Gemeinden Dossenheim"
   facebook = "kjg.dossenheim"
