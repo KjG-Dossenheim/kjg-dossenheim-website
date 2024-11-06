@@ -29,17 +29,17 @@
 </section>
 <section id="info">
     <section class="py-16 px-4 text-center bg-primary-500 dark:bg-secondary-500 ">
-        <h2 class="text-white dark:text-primary-500 mb-4 font-extrabold leading-loose tracking-tight">Für <span
+        <h2 class="text-white mb-4 font-extrabold leading-loose tracking-tight">Für <span
                 class="underline decoration-8 decoration-accent-400 dark:decoration-accent-600">alle</span> Kinder
             zwischen {{.Site.Data.sommerfreizeit.informationen.alter}}</h2>
     </section>
     <section class="overflow-hidden md:grid md:grid-cols-2">
         <div class="p-8 md:p-12 lg:px-16 lg:py-24">
             <div class="mx-auto max-w-xl text-center ltr:md:text-left rtl:md:text-right">
-                <h2 class="text-2xl font-bold md:text-3xl">
+                <h2 class="text-2xl font-bold md:text-3xl dark:text-secondary-500">
                     Unterkunft
                 </h2>
-                <p class=" text-secondary-500 md:mt-4">
+                <p class="text-secondary-500 dark:text-primary-500 md:mt-4">
                     {{ $unterkunft.beschreibung }}
                 </p>
                 <div class="mt-4 md:mt-8">
@@ -56,7 +56,7 @@
             class=" w-full object-cover sm:h-full" />
     </section>
     <section class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16 mx-auto">
-        <h2 class="text-center pb-4">Teilnehmerbeitrag</h2>
+        <h1 class="text-center pb-4">Teilnehmerbeitrag</h1>
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8">
             <div
                 class="bg-secondary-50 dark:bg-secondary-800 border border-secondary-200 dark:border-secondary-700 divide-y divide-secondary-200 rounded-2xl shadow-sm">
