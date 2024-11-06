@@ -20,3 +20,9 @@ link = "/adventsmarkt/"
 [[aktion]]
 name = "Friedensgebet"
 start_date = 2025-01-01
+
+[[aktion]]
+name = "Sommerfreizeit"
+start_date = 2025-09-06
+end_date = 2025-09-12
+link = "/sommerfreizeit/"
