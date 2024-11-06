@@ -50,7 +50,7 @@
 </ol>
 {{ $futureYear := now.AddDate 1 0 0 }}
 <h2 class="mb-4 text-4xl font-extrabold tracking-tight">Vorschau für {{ $futureYear.Format "2006" }}  </h2>
-<ol class="relative border-l-2 border-dashed border-primary-500">
+<ol class="relative border-l-2 border-dotted border-primary-500">
     {{ range $vorschau := where (where .Site.Data.aktionen.aktion "start_date" "gt" now) "start_date" "gt" $endOfYear }}
     <li class="mb-10 ml-6 list-none">
         <span
@@ -64,12 +64,10 @@
         <h3 class="flex items-center mb-1 text-lg font-semibold text-primary-500">{{ $vorschau.name }}
             <time
                 class="bg-primary-500 text-white text-sm font-medium mr-2 px-2.5 py-0.5 rounded-full dark:bg-secondary-500 dark:text-primary-300 ml-3">
-                {{ if $vorschau.start_date }}
+                {{ if and $vorschau.start_date $vorschau.end_date }}
+                {{ $vorschau.start_date | time.Format ":date_short" }} bis {{ $vorschau.end_date | time.Format ":date_short" }}
+                {{ else if $vorschau.start_date }}
                 {{ $vorschau.start_date | time.Format ":date_long" }}
-                {{ end }}
-                {{ if $vorschau.end_date }}
-                bis
-                {{ $vorschau.end_date | time.Format ":date_long" }}
                 {{ end }}
             </time>
         </h3>
